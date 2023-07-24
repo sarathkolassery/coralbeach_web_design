@@ -1,0 +1,120 @@
+.custom-padding-t50 {
+    padding-top: 50px;
+}
+
+.custom-padding-b65 {
+    padding-bottom: 65px;
+}
+
+.custom-margin-b40 {
+    margin-bottom: 40px;
+}
+
+.custom-margin-landing {
+    margin-top: 85px;
+}
+
+.feature {
+    display: grid;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.feature>* {
+    grid-area: 1/1;
+    transition: 10s;
+}
+
+.feature figcaption {
+    display: grid;
+    align-items: end;
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #0000;
+    padding: 0.75rem;
+    background: var(--c, #0009);
+    clip-path: inset(0 var(--_i, 100%) 0 0);
+    -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    -webkit-mask-clip: text, padding-box;
+}
+
+.feature:hover .img-scale {
+    transform: scale(1.2);
+}
+
+.glassmorph1 .brands .item {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cont-info {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    padding-top: 50%;
+    padding-left: 0;
+    text-align: center;
+    /* vertical-align: bottom; */
+    color: #fff;
+    background: var(--c, #0009);
+    transition: .5s ease;
+}
+
+.feature:hover .cont-info {
+    z-index: 1;
+    width: 100%;
+}
+
+.feature:hover .cont-txt h6 {
+    transform: translate(53px, 94px);
+}
+
+.cont-txt h6 {
+    white-space: nowrap;
+    margin-left: -108px;
+}
+
+.cont-txt h4 {
+    white-space: nowrap;
+    margin-left: -533px;
+}
+
+.feature:hover .cont-txt h4 {
+    transform: translate(273px, 90px);
+}
+
+/* .cont-txt h4 {
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, 50%);
+    white-space: nowrap;
+} */
+
+
+
+/* media query section start */
+@media only screen and (max-width: 1500px) {
+    .lottie-dime {
+        width: 795px;
+        height: 580px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .lottie-dime {
+        width: 365px;
+        height: 580px;
+    }
+}
+
+/* media query section end */
