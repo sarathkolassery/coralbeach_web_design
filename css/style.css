@@ -935,8 +935,8 @@ span:hover {
   border: 0px;
   height: 1px;
   overflow: hidden;
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
   -webkit-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
@@ -1669,7 +1669,11 @@ body {
 
   border-bottom: 2px solid transparent;
   z-index: 999;
-  min-height: 80px;
+  min-height: 90px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  transform-origin: bottom;
+  transform: scale(1.1);
 }
 
 .curved-nav {
@@ -1852,14 +1856,21 @@ body {
   padding: 0;
   position: fixed;
   top: -80px;
+  transform-origin: bottom;
+  transform: scale(1.1);
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
   -o-transition: transform .5s;
   transition: transform .5s;
   transition: transform .5s, -webkit-transform .5s;
-  -webkit-transform: translateY(80px);
-  -ms-transform: translateY(80px);
-  transform: translateY(80px);
+  -webkit-transform: translateY(80px) scale(1.1);
+  -ms-transform: translateY(80px) scale(1.1);
+  transform: translateY(80px) scale(1.1);
+
+  min-height: 90px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+
 }
 
 .nav-scroll .navbar-nav .nav-link {
@@ -4060,6 +4071,7 @@ header.simpl .caption .btn-curve {
   margin-bottom: 40px;
   filter: drop-shadow(2px 4px 4px #1108A4);
 }
+
 .services .item h6 {
   margin-bottom: 15px;
 }
