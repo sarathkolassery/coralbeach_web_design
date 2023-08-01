@@ -1665,14 +1665,14 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  background: linear-gradient(90deg, #FF0057 0%, #1108A4 32%, #1108A4 68%, #FF0057 100%);
+  background: linear-gradient(90deg, #241468 0%, #241468 32%, #9F0D7F 68%, #9f0d7f 100%);
 
   border-bottom: 2px solid transparent;
   z-index: 999;
   min-height: 90px;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
-  transform-origin: bottom;
+  /* transform-origin: bottom; */
   transform: scale(1.1);
 }
 
@@ -1849,14 +1849,14 @@ body {
 }
 
 .nav-scroll {
-  background: linear-gradient(90deg, #FF0057 0%, #1108A4 32%, #1108A4 68%, #FF0057 100%);
+  background: linear-gradient(90deg, #241468 0%, #241468 32%, #9F0D7F 68%, #9f0d7f 100%);
   border-color: transparent;
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   padding: 0;
   position: fixed;
   top: -80px;
-  transform-origin: bottom;
+  /* transform-origin: bottom; */
   transform: scale(1.1);
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
@@ -1883,7 +1883,7 @@ body {
 }
 
 .nav-scroll .icon-bar {
-  color: #0c0f16;
+  color: #ffffff;
 }
 
 .topnav {
@@ -6687,7 +6687,7 @@ header.simpl .caption .btn-curve {
   }
 
   .navbar {
-    min-height: 60px;
+    min-height: 98px;
   }
 
   .navbar .navbar-collapse {
