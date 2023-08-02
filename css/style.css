@@ -4743,6 +4743,16 @@ header.simpl .caption .btn-curve {
   border-radius: 0px;
   height: 480px;
   position: relative;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  
+}
+
+.work-carousel.caroul.simpl .content .item-img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .work-carousel.caroul.simpl .content .item-img:after {

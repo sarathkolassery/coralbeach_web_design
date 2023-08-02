@@ -58,7 +58,7 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.cont-info {
+/* .cont-info {
     position: absolute;
     top: 0;
     z-index: 0;
@@ -69,10 +69,10 @@
     padding-left: 0;
     text-align: center;
     /* vertical-align: bottom; */
-    color: #fff;
+    /* color: #fff;
     background: var(--c, #0009);
-    transition: .5s ease;
-}
+    transition: .5s ease; */
+/* } */ 
 
 .feature:hover .cont-info {
     z-index: 1;

@@ -1,5 +1,6 @@
 .text-fader {
   margin: 25% 0 0 10%;
+  position: absolute;
 }
 .text-fader .text-content {
   font-size: 3em;

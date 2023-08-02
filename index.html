@@ -29,16 +29,16 @@
     rel="stylesheet" />
 
   <!-- Plugins -->
-  <link rel="stylesheet" href="css/plugins.css"/>
-  <link rel="stylesheet" href="css/textanim.css"/>
+  <link rel="stylesheet" href="css/plugins.css" />
+  <link rel="stylesheet" href="css/textanim.css" />
 
   <!-- Core Style Css -->
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/style.css" />
 
   <!-- Custom SCSS -->
 
 
-  <link rel="stylesheet" href="css/custom.css"/>
+  <link rel="stylesheet" href="css/custom.css" />
 </head>
 
 <body class="dark2">
@@ -75,9 +75,9 @@
   <!-- ==================== End cursor ==================== -->
 
   <!-- ==================== Start Navbar ==================== -->
-  
+
   <nav class="navbar change navbar-expand-lg">
-    
+
     <!-- <svg id="header-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="60" viewBox="0 0 100 100"
       preserveAspectRatio="none">
       <path fill="%230099ff" fill-opacity="1" d="M0 100 C40 0 60 0 100 100 Z"></path>
@@ -145,7 +145,7 @@
         </div> -->
       </div>
     </div>
-  </div>
+    </div>
   </nav>
 
 
@@ -160,26 +160,56 @@
           autoplay></lottie-player>
       </div>
       <div class="col-xl-6 col-sm-6 col-12 custom-margin-landing mob-margin2">
-        <div class="text-fader">
-          <div class="text-content">
-            <span class="line">It’s what <span class="colour">drives us.</span></span>
-            <span class="line">Because when you thrive,</span>
-            <span class="line">we <span class="colour">thrive.</span></span>
-          </div>
+        <div class="col-12">
+          <div class="text-fader">
+            <div class="text-content">
+              <span class="line">It’s what <span class="colour">drives us.</span></span>
+              <span class="line">Because when you thrive,</span>
+              <span class="line">we <span class="colour">thrive.</span></span>
+            </div>
 
-          <div class="text-content">
-            <span class="line">Video Production</span>
-            <span class="line"><span class="colour landing-txt">Branding</span></span>
-            <span class="line">Designing</span>
-            <span class="line"><span class="colour">Advertising</span></span>
-            <span class="line">Photography</span>
-          </div>
+            <div class="text-content">
+              <span class="line">Video Production</span>
+              <span class="line"><span class="colour landing-txt">Branding</span></span>
+              <span class="line">Designing</span>
+              <span class="line"><span class="colour">Advertising</span></span>
+              <span class="line">Photography</span>
+            </div>
 
-          <div class="text-content">
-            <span class="line">We create <span class="colour">stunning</span></span>
-            <span class="line">contents</span>
-            <span class="line">for your <span class="colour">business</span></span>
+            <div class="text-content">
+              <span class="line">We create <span class="colour">stunning</span></span>
+              <span class="line">contents</span>
+              <span class="line">for your <span class="colour">business</span></span>
+            </div>
           </div>
+        </div>
+        <div class="col-12">
+          <section class="contact section-padding">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                  <div class="cont-info">
+                    <div class="social mt-50">
+                      <a href="#0" class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#0" class="icon">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#0" class="icon">
+                        <i class="fab fa-pinterest"></i>
+                      </a>
+                      <a href="#0" class="icon">
+                        <i class="fab fa-behance"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
@@ -229,27 +259,9 @@
           <div class="col-lg-12 no-padding">
             <div class="swiper-container">
               <div class="swiper-wrapper">
-                <div class="swiper-slide feature" style="margin-left: 15px; margin-right: 15px; padding: 0">
-                  <div class="content wow fadeInUp" data-wow-delay=".1s">
-                    <div class="cont-info cont-txt">
-                      <h6><a href="#0">art & illustration</a></h6>
-                      <h4>
-                        <a href="project-details.html">Innovation and Crafts.</a>
-                      </h4>
-                    </div>
-                    <div class="item-img bg-img wow imago img-scale" data-background="img/portfolio/curs/marvel.webp">
-                    </div>
-                    <div class="cont">
-                      <h6><a href="#0">art & illustration</a></h6>
-                      <h4>
-                        <a href="">Innovation and Crafts.</a>
-                      </h4>
-                    </div>
-                  </div>
-                </div>
                 <div class="swiper-slide">
                   <div class="content wow fadeInUp" data-wow-delay=".3s">
-                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/2.jpg"></div>
+                    <div class="item-img bg-img wow imago" data-background="img/portfolio/curs/reel1.jpg"></div>
                     <div class="cont">
                       <h6><a href="#0">art & illustration</a></h6>
                       <h4>
@@ -430,7 +442,8 @@
               <span class="icon pe-7s-speaker"></span>
               <h6>Ads</h6>
               <p>
-                Drive sales with impactful ads. Reach your audience effectively. Let your brand stand out. Unlock success today!
+                Drive sales with impactful ads. Reach your audience effectively. Let your brand stand out. Unlock
+                success today!
               </p>
             </div>
           </div>
@@ -969,38 +982,38 @@
       // Index page text animation end
   </script>
   <script>
-function playPauseVideo() {
-    let videos = document.querySelectorAll("video");
-    videos.forEach((video) => {
+    function playPauseVideo() {
+      let videos = document.querySelectorAll("video");
+      videos.forEach((video) => {
         // We can only control playback without insteraction if video is mute
         video.muted = true;
         // Play is a promise so we need to check we have it
         let playPromise = video.play();
         if (playPromise !== undefined) {
-            playPromise.then((_) => {
-                let observer = new IntersectionObserver(
-                    (entries) => {
-                        entries.forEach((entry) => {
-                            if (
-                                entry.intersectionRatio !== 1 &&
-                                !video.paused
-                            ) {
-                                video.pause();
-                            } else if (video.paused) {
-                                video.play();
-                            }
-                        });
-                    },
-                    { threshold: 0.2 }
-                );
-                observer.observe(video);
-            });
+          playPromise.then((_) => {
+            let observer = new IntersectionObserver(
+              (entries) => {
+                entries.forEach((entry) => {
+                  if (
+                    entry.intersectionRatio !== 1 &&
+                    !video.paused
+                  ) {
+                    video.pause();
+                  } else if (video.paused) {
+                    video.play();
+                  }
+                });
+              },
+              { threshold: 0.2 }
+            );
+            observer.observe(video);
+          });
         }
-    });
-}
+      });
+    }
 
-// And you would kick this off where appropriate with:
-playPauseVideo();
+    // And you would kick this off where appropriate with:
+    playPauseVideo();
   </script>
 </body>
 
