@@ -22,7 +22,7 @@
   display: block;
 }
 .text-fader .text-content.in span.colour.go .letter {
-  color: #aed139;
+  color: #9F0D7F;
 }
 .text-fader .text-content.in span.colour.go .letter:nth-child(1) {
   transition-delay: 0.07s;

@@ -14,6 +14,10 @@
     margin-top: 85px;
 }
 
+.custom_mt30 {
+    margin-top: 30px;
+}
+
 .feature {
     display: grid;
     border-radius: 10px;
@@ -105,12 +109,27 @@
 } */
 
 
-
+@media only screen and (min-width: 1300px) {
+    .lottie-dime {
+        width: 1143px;
+        height: 796px;
+        margin-left: -147px;
+    }
+}
 /* media query section start */
-@media only screen and (max-width: 1500px) {
+@media (min-width: 750px) and (max-width: 1200px) {
     .lottie-dime {
         width: 795px;
-        height: 580px;
+        height: 349px;
+        margin-left: -192px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1200px) {
+    .lottie-dime {
+        width: 795px;
+        height: 471px;
+        margin-left: -147px;
     }
 }
 
@@ -130,12 +149,22 @@
     }
 
     .custom-margin-landing {
-        margin-top: -185px;
+        margin-top: 23px;
         height: 236px;
     }
 
-    .mob-margin2{
+    .mob-margin2 {
         margin-top: -35px;
+    }
+
+    .navbar {
+        width: 95.2%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .navbar {
+        width: 95.35%;
     }
 }
 
@@ -143,17 +172,24 @@
 
 /* media query laptop */
 /* If [device width] is less than or equal to 1300px, then do {…} */
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1300px) {
     .nav-dy-width {
         width: 87%;
     }
 }
+
 @media only screen and (max-width: 991px) {
     .navbar .logo {
         width: 100px;
     }
-    .nav-dy-width{
+
+    .nav-dy-width {
         margin-top: 24px;
     }
+
+    .custom_mt30 {
+        margin-top: 0px;
+    }
 }
+
 /* media query 992 end */
