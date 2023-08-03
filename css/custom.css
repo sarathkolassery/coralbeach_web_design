@@ -101,6 +101,27 @@
     font-size: 75px;
 }
 
+.faded {
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.faded:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+}
+
+.faded.faded-top:after {
+    box-shadow: inset 0 40px 40px -16px;
+}
+
 /* .cont-txt h4 {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -156,16 +177,10 @@
     .mob-margin2 {
         margin-top: -35px;
     }
-
-    .navbar {
-        width: 95.2%;
-    }
 }
 
 @media only screen and (max-width: 350px) {
-    .navbar {
-        width: 95.35%;
-    }
+
 }
 
 /* media query section end */

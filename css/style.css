@@ -1667,13 +1667,13 @@ body {
   width: 100%;
   background: linear-gradient(90deg, #241468 0%, #241468 32%, #9F0D7F 68%, #9f0d7f 100%);
 
-  border-bottom: 2px solid transparent;
+  /* border-bottom: 2px solid transparent; */
   z-index: 999;
-  min-height: 90px;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
+  min-height: 0px;
+  /* border-bottom-left-radius: 100%; */
+  /* border-bottom-right-radius: 100%; */
   /* transform-origin: bottom; */
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .curved-nav {
@@ -1682,7 +1682,7 @@ body {
 
 #header-svg {
   position: absolute;
-  bottom: -61.5px;
+  bottom: -3.425ex;
   left: 0;
   right: 0;
   z-index: 11;
@@ -1855,21 +1855,21 @@ body {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   padding: 0;
   position: fixed;
-  top: -80px;
+  /* top: -80px; */
   /* transform-origin: bottom; */
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
   -o-transition: transform .5s;
   transition: transform .5s;
   transition: transform .5s, -webkit-transform .5s;
-  -webkit-transform: translateY(80px) scale(1.1);
-  -ms-transform: translateY(80px) scale(1.1);
-  transform: translateY(80px) scale(1.1);
+  /* -webkit-transform: translateY(80px) scale(1.1); */
+  /* -ms-transform: translateY(80px) scale(1.1); */
+  /* transform: translateY(80px) scale(1.1); */
 
-  min-height: 90px;
-  border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%;
+  min-height: 0px;
+  /* border-bottom-left-radius: 100%; */
+  /* border-bottom-right-radius: 100%; */
 
 }
 
