@@ -18,6 +18,10 @@
     margin-top: 30px;
 }
 
+.custom_mt524 {
+    margin-top: 524px;
+}
+
 .feature {
     display: grid;
     border-radius: 10px;
@@ -190,6 +194,14 @@
 @media only screen and (max-width: 1300px) {
     .nav-dy-width {
         width: 87%;
+    }
+
+    .landing-elmnt {
+    margin-top: -88px;
+    }
+
+    .custom_mt524 {
+        margin-top: 588px;
     }
 }
 
