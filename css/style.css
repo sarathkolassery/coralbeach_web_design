@@ -4234,6 +4234,7 @@ header.simpl .caption .btn-curve {
   transition: all .4s;
   max-width: 75px;
   margin: auto;
+  scale: 2.2;
 }
 
 .clients .brands .img .link {
@@ -4744,10 +4745,10 @@ header.simpl .caption .btn-curve {
   height: 480px;
   position: relative;
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-  
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+
 }
 
 .work-carousel.caroul.simpl .content .item-img:hover {
