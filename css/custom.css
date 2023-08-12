@@ -73,10 +73,10 @@
     padding-left: 0;
     text-align: center;
     /* vertical-align: bottom; */
-    /* color: #fff;
+/* color: #fff;
     background: var(--c, #0009);
     transition: .5s ease; */
-/* } */ 
+/* } */
 
 .feature:hover .cont-info {
     z-index: 1;
@@ -141,6 +141,7 @@
         margin-left: -147px;
     }
 }
+
 /* media query section start */
 @media (min-width: 750px) and (max-width: 1200px) {
     .lottie-dime {
@@ -181,11 +182,14 @@
     .mob-margin2 {
         margin-top: -35px;
     }
+
+    .mt-50 {
+        margin-top: -103% !important;
+        margin-left: 14%;
+    }
 }
 
-@media only screen and (max-width: 350px) {
-
-}
+@media only screen and (max-width: 350px) {}
 
 /* media query section end */
 
@@ -197,7 +201,7 @@
     }
 
     .landing-elmnt {
-    margin-top: -88px;
+        margin-top: -88px;
     }
 
     .custom_mt524 {
