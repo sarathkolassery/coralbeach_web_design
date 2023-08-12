@@ -6704,7 +6704,6 @@ header.simpl .caption .btn-curve {
   .navbar .navbar-collapse {
     max-height: 340px;
     overflow: auto;
-    background: #11141b;
     text-align: center;
     padding: 10px 15px;
   }
@@ -6763,13 +6762,13 @@ header.simpl .caption .btn-curve {
     opacity: 1;
     visibility: visible;
     display: none;
-    background: #0c0f16;
+    /* background: #0c0f16; */
     text-align: center;
     color: #eee;
   }
 
   .navbar-nav .dropdown-menu .dropdown-item {
-    color: #eee;
+    /* color: #eee; */
   }
 
   .navbar-nav .dropdown-menu.show {
