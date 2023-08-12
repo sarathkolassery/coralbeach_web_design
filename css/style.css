@@ -6706,7 +6706,7 @@ header.simpl .caption .btn-curve {
     max-height: 340px;
     overflow: auto;
     text-align: center;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
   }
 
   .navbar .nav-link {
