@@ -1682,7 +1682,8 @@ body {
 
 #header-svg {
   position: absolute;
-  bottom: -3.425ex;
+  /* bottom: -3.425ex; */
+  top: 5ex;
   left: 0;
   right: 0;
   z-index: 11;
