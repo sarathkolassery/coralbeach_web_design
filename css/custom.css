@@ -26,6 +26,15 @@
     margin-top: 524px;
 }
 
+.client-bg-img {
+    background-image: url(../img/clients/clients_bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+}
+
 .feature {
     display: grid;
     border-radius: 10px;
