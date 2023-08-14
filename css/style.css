@@ -1663,6 +1663,7 @@ body {
   left: 0;
   top: 0;
   padding: 0;
+  max-height: 91px;
   margin: 0;
   width: 100%;
   background: linear-gradient(90deg, #241468 0%, #241468 32%, #9F0D7F 68%, #9f0d7f 100%);
@@ -1682,8 +1683,8 @@ body {
 
 #header-svg {
   position: absolute;
-  /* bottom: -3.425ex; */
-  top: 5ex;
+  bottom: -3.3ex;
+  /* top: 5ex; */
   left: 0;
   right: 0;
   z-index: 11;

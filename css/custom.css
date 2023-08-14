@@ -6,6 +6,10 @@
     padding-bottom: 65px;
 }
 
+.custom-padding-menu {
+    padding-bottom: 0%;
+}
+
 .custom-margin-b40 {
     margin-bottom: 40px;
 }
@@ -222,6 +226,10 @@
 
     .custom_mt30 {
         margin-top: 0px;
+    }
+
+    .custom-padding-menu {
+        padding-bottom: 5%;
     }
 }
 
