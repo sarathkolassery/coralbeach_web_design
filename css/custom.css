@@ -26,6 +26,14 @@
     margin-top: 524px;
 }
 
+.cont-cus-margin-top {
+    margin-top: 150px;
+}
+
+.cont-cus-margin-bottom {
+    margin-bottom: 315px;
+}
+
 .client-bg-img {
     background-image: url(../img/clients/clients_bg.jpg);
     background-attachment: fixed;
@@ -199,7 +207,7 @@
     }
 
     .mt-50 {
-        margin-top: -98% !important;
+        margin-top: 15% !important;
         margin-right: 7%;
     }
 }

@@ -2,40 +2,49 @@
 <html lang="zxx">
 
 <head>
-
     <!-- Metas -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
     <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
     <meta name="author" content="" />
-
+  
     <!-- Title  -->
-    <title>Avo</title>
-
+    <title>CoralBeach Studios</title>
+  
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico"/>
-
+    <link rel="shortcut icon" href="img/cb-icon.png" />
+  
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
+      rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+      rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
+      rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+      rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-
+      rel="stylesheet" />
+  
     <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css"/>
-
+    <link rel="stylesheet" href="css/plugins.css?ver=1" />
+    <link rel="stylesheet" href="css/textanim.css?ver=1" />
+  
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="css/style.css"/>
-
-</head>
+    <link rel="stylesheet" href="css/style.css?ver=1" />
+  
+    <!-- Custom SCSS -->
+  
+  
+    <link rel="stylesheet" href="css/custom.css?ver=1" />
+    <style>
+      .glassmorph1 .brands .item {
+        background: rgba(255, 255, 255, 0.7);
+      }
+    </style>
+  </head>
 
 <body>
 
@@ -62,95 +71,102 @@
 
     <!-- ==================== Start cursor ==================== -->
 
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
+    <!-- <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div> -->
 
     <!-- ==================== End cursor ==================== -->
 
 
 
-    <!-- ==================== Start Navbar ==================== -->
+  <!-- ==================== Start Navbar ==================== -->
 
-    <nav class="navbar light navbar-expand-lg">
-        <div class="container">
+  <nav class="navbar change navbar-expand-lg" style="width: 100%;">
+    <!-- curve start -->
+    <!-- <svg id="header-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="60" viewBox="0 0 100 100"
+      preserveAspectRatio="none">
+      <path fill="%230099ff" fill-opacity="1" d="M0 50 C40 0 60 0 100 50 Z"></path>
+    </svg> -->
+    <!-- curve end -->
+    <div class="container nav-dy-width">
+      <!-- Logo -->
+      <a class="logo" href="#">
+        <img src="img/cb-logo.png" alt="logo" />
+      </a>
 
-            <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="img/logo-dark.png" alt="logo">
-            </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar"><i class="fas fa-bars"></i></span>
+      </button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"><i class="fas fa-bars"></i></span>
-            </button>
-
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Main Home</a>
-                            <a class="dropdown-item" href="index2.html">Creative Studio</a>
-                            <a class="dropdown-item" href="index3.html">Business Startup</a>
-                            <a class="dropdown-item" href="index4.html">One Page</a>
-                            <a class="dropdown-item" href="index5.html">Freelancer</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Showcases</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="showcase.html">Full Screen</a>
-                            <a class="dropdown-item" href="showcase2.html">Creative Carousel</a>
-                            <a class="dropdown-item" href="showcase3.html">Radius Carousel</a>
-                            <a class="dropdown-item" href="showcase4.html">Columns Carousel</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="works.html">Mouse Info</a>
-                            <a class="dropdown-item" href="works2.html">Masonry 3 Columns</a>
-                            <a class="dropdown-item" href="works3.html">Masonry 2 Columns</a>
-                            <a class="dropdown-item" href="works4.html">Pinterest List</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <div class="search">
-                    <span class="icon pe-7s-search cursor-pointer"></span>
-                    <div class="search-form text-center custom-font">
-                        <form>
-                            <input type="text" name="search" placeholder="Search">
-                        </form>
-                        <span class="close pe-7s-close cursor-pointer"></span>
-                    </div>
-                </div>
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: 10px;">
+        <ul class="navbar-nav ml-auto" style="padding-bottom: 15px;">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Home</a>
+            <div class="dropdown-menu glass-drop">
+              <a class="dropdown-item" href="index.html">Main Home</a>
+              <a class="dropdown-item" href="index2.html">Creative Studio</a>
+              <a class="dropdown-item" href="index3.html">Business Startup</a>
+              <a class="dropdown-item" href="index4.html">One Page</a>
+              <a class="dropdown-item" href="index5.html">Freelancer</a>
             </div>
-        </div>
-    </nav>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Showcases</a>
+            <div class="dropdown-menu glass-drop">
+              <a class="dropdown-item" href="showcase.html">Full Screen</a>
+              <a class="dropdown-item" href="showcase2.html">Creative Carousel</a>
+              <a class="dropdown-item" href="showcase3.html">Radius Carousel</a>
+              <a class="dropdown-item" href="showcase4.html">Columns Carousel</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Portfolio</a>
+            <div class="dropdown-menu glass-drop">
+              <a class="dropdown-item" href="works.html">Mouse Info</a>
+              <a class="dropdown-item" href="works2.html">Masonry 3 Columns</a>
+              <a class="dropdown-item" href="works3.html">Masonry 2 Columns</a>
+              <a class="dropdown-item" href="works4.html">Pinterest List</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <!-- <div class="search">
+          <span class="icon pe-7s-search cursor-pointer"></span>
+          <div class="search-form text-center custom-font">
+            <form>
+              <input type="text" name="search" placeholder="Search" />
+            </form>
+            <span class="close pe-7s-close cursor-pointer"></span>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    </div>
+  </nav>
 
-    <!-- ==================== End Navbar ==================== -->
+
+  <!-- ==================== End Navbar ==================== -->
 
 
     <!-- ==================== Start header ==================== -->
 
-    <header class="works-header fixed-slider hfixd valign">
+    <!-- <header class="works-header fixed-slider hfixd valign">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-11 static">
                     <div class="capt mt-50">
                         <div class="parlx">
-                            <h2 class="custom-font"><span>Let's</span>Talk About Your project.</h2>
-                            <p>Feel free to ask me any question or let’s do to talk about
+                            <h2 class="custom-font"><span>Let's</span>Talk About Future!.</h2>
+                            <p>Feel free to ask us any question or let’s talk about
                                 our future collaboration.</p>
                         </div>
 
@@ -161,18 +177,16 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <!-- ==================== End header ==================== -->
 
 
     <!-- ==================== Start main-content ==================== -->
 
-    <div class="main-content">
-
         <!-- ==================== Start Contact ==================== -->
 
-        <section class="contact section-padding">
+        <section class="contact cont-cus-margin-top cont-cus-margin-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -197,7 +211,7 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
+                                        <textarea id="form_message" style="border-radius: 12px;" name="message" placeholder="Message" rows="4"
                                             required="required"></textarea>
                                     </div>
 
@@ -212,14 +226,15 @@
                             <h3 class="custom-font wow" data-splitting>Let's Talk.
                             </h3>
                             <div class="item mb-40">
-                                <h5><a href="#0">Email@example.com</a></h5>
-                                <h5>+4.930.705.5448</h5>
+                                <h5><a href="#0">coralbeachstudios@gmail.com</a></h5>
+                                <h5>+91 8136 8380 49</h5>
+                                <h5>+91 7034 511 749</h5>
                             </div>
-                            <h3 class="custom-font wow" data-splitting>Visit Us.
+                            <h3 class="custom-font wow" data-splitting>Our nexus
                             </h3>
                             <div class="item">
-                                <h6>295 Witting Streets Suite 666,
-                                    <br>Melbourne, Australia</h6>
+                                <h6>Kozhikode, Kerala
+                                    <br>India</h6>
                             </div>
                             <div class="social mt-50">
                                 <a href="#0" class="icon">
@@ -246,25 +261,21 @@
 
         <!-- ==================== Start Map ==================== -->
 
-        <div class="map" id="ieatmaps"></div>
+        <!-- <div class="map" id="ieatmaps"></div> -->
 
         <!-- ==================== End Map ==================== -->
 
 
         <!-- ==================== Start Footer ==================== -->
 
-        <footer class="footer-half sub-bg">
+        <footer class="footer-half pb-0">
             <div class="container">
                 <div class="copyrights text-center mt-0">
-                    <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
+                    <p>© <script>document.write(new Date().getFullYear())</script>, coralbeach studios <a href="#0">All rights reserved</a>.</p>
                 </div>
             </div>
         </footer>
-
         <!-- ==================== End Footer ==================== -->
-
-
-    </div>
 
     <!-- ==================== End main-content ==================== -->
 

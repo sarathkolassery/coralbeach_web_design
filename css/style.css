@@ -1554,12 +1554,16 @@ body {
 }
 
 .btn-curve.btn-lit {
-  border-color: #fff;
-  color: #fff;
+  /* border-color: #fff;
+  color: #fff; */
+  border-color: #241468;
+  border-radius: 12px;
+  color: #0c0f16;
 }
 
 .btn-curve.btn-lit:hover span {
-  color: #75dab4;
+  /* color: #75dab4; */
+  color: #9f0d7f;
 }
 
 .btn-curve.btn-lit:after {
