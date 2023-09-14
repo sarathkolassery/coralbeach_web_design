@@ -739,6 +739,7 @@ $(function () {
     "use strict";
 
     var slidHeight = $(".fixed-slider").outerHeight();
+    console.log("fixed-slider: "+slidHeight);
 
     $(".main-content").css({
         marginTop: slidHeight

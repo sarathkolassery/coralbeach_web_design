@@ -3202,7 +3202,7 @@ header.simpl .caption .btn-curve {
   font-size: 30vw;
   font-weight: bold;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
+  /* -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1); */
   z-index: -1;
   position: absolute;
   width: 100%;
