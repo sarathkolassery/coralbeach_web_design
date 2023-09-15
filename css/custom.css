@@ -83,6 +83,11 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.soc-ico-mt {
+    margin-top: 103px !important;
+    /* margin-right: 7%; */
+}
+
 /* .cont-info {
     position: absolute;
     top: 0;
@@ -154,6 +159,7 @@
     align-items: center;
     justify-content: center;
   }    
+  
   .shadow-title {
       position: relative;
       text-transform: uppercase;
@@ -203,6 +209,7 @@
     }
 }
 
+/* Mobile-L view */
 @media only screen and (max-width: 480px) {
     .lottie-dime {
         width: 100%;
@@ -229,9 +236,9 @@
         margin-top: -45%;
     }
 
-    .mt-50 {
-        margin-top: 15% !important;
-        margin-right: 7%;
+    .soc-ico-mt {
+        margin-top: -261px !important;
+        /* margin-right: 7%; */
     }
 }
 
