@@ -26,12 +26,26 @@
     margin-top: 524px;
 }
 
+.portfolio-mt {
+    margin-top: 232px;
+}
+
+.portfolio-height {
+    min-height: 55vh;
+}
+
 .cont-cus-margin-top {
     margin-top: 150px;
 }
 
 .cont-cus-margin-bottom {
     margin-bottom: 315px;
+}
+
+.cus-flex-base {
+    display: flex;
+    align-items: baseline;
+    justify-content: inherit;
 }
 
 .client-bg-img {
@@ -155,6 +169,7 @@
 .shadow-title-cont {
     width: 100vw;
     height: 100vh;
+    margin-top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +206,7 @@
 .custom-card-container::before,
 .custom-card-container::after {
     content: "";
-    background-color: #fab5704c;
+    background-color: #e3016036;
     position: absolute;
 }
 
@@ -388,6 +403,18 @@
     .soc-ico-mt {
         margin-top: -261px !important;
         /* margin-right: 7%; */
+    }
+
+    .shadow-title {
+        font-size: 80px;
+    }
+
+    .shadow-title-cont {
+        margin-top: -560px;
+    }
+
+    .portfolio-mt {
+        margin-top: -293px;
     }
 }
 
