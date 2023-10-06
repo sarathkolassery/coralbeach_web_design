@@ -4262,6 +4262,7 @@ header.simpl .caption .btn-curve {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
+  cursor: default;
 }
 
 .clients .bord .item {
