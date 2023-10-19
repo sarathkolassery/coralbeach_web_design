@@ -346,6 +346,10 @@
     right: 0;
 }
 
+.services-img-width {
+    width: 180%;
+}
+
 /* custom btn for service page end */
 /* ================= RESPONSIVE SECTION START ======================== */
 @media only screen and (min-width: 1300px) {
@@ -415,6 +419,10 @@
 
     .portfolio-mt {
         margin-top: -293px;
+    }
+
+    .services-img-width {
+        width: 100%;
     }
 }
 
