@@ -367,6 +367,10 @@
         height: 349px;
         margin-left: -192px;
     }
+
+    .services-img-width {
+        width: 106%;
+    }
 }
 
 @media (min-width: 770px) and (max-width: 1200px) {
@@ -405,7 +409,7 @@
     }
 
     .soc-ico-mt {
-        margin-top: -261px !important;
+        margin-top: -288px !important;
         /* margin-right: 7%; */
     }
 
