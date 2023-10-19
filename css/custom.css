@@ -44,8 +44,9 @@
 
 .cus-flex-base {
     display: flex;
+    padding-top: 27px;
     align-items: baseline;
-    justify-content: inherit;
+    justify-content: center;
 }
 
 .client-bg-img {
@@ -289,6 +290,7 @@
     --hover-color: #111;
     --arrow-width: 10px;
     --arrow-stroke: 2px;
+    cursor: pointer;
     box-sizing: border-box;
     border: 0;
     border-radius: 20px;
