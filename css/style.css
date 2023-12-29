@@ -4348,14 +4348,14 @@ header.simpl .caption .btn-curve {
   color: #75dab4;
 }
 
-.portfolio .filtering span:after {
+.portfolio .filtering span:before {
   content: '';
   width: 7px;
   height: 7px;
   background: #75dab4;
   border-radius: 50%;
   position: absolute;
-  right: -24px;
+  left: -24px;
   top: 40%;
 }
 
@@ -4384,7 +4384,7 @@ header.simpl .caption .btn-curve {
   color: #75dab4;
 }
 
-.portfolio .filtering.smplx span:after {
+.portfolio .filtering.smplx span:before {
   content: '';
   width: 7px;
   height: 7px;
