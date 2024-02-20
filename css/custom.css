@@ -352,6 +352,11 @@
     width: 180%;
 }
 
+.custom-img-trans {
+    margin: 20vh 0 0 !important;
+    height: 69vh !important;
+}
+
 /* =================== For screens with a width of 425px or more: ==========================*/
 @media screen and (min-width: 425px) {
     /* Your styles for this screen width go here */
