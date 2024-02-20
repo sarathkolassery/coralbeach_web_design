@@ -352,93 +352,38 @@
     width: 180%;
 }
 
-/* custom btn for service page end */
-/* ================= RESPONSIVE SECTION START ======================== */
-@media only screen and (min-width: 1300px) {
-    .lottie-dime {
-        width: 1143px;
-        height: 796px;
-        margin-left: -147px;
+/* =================== For screens with a width of 425px or more: ==========================*/
+@media screen and (min-width: 425px) {
+    /* Your styles for this screen width go here */
+}
+
+/* =================== For screens with a width of 768px or more: ==========================*/
+@media screen and (min-width: 768px) {
+    .custom-img-trans {
+        height: 82vh !important;
+        margin: 15vh 0 0 !important;
     }
 }
 
-/* media query section start */
-@media (min-width: 750px) and (max-width: 1200px) {
-    .lottie-dime {
-        width: 795px;
-        height: 349px;
-        margin-left: -192px;
-    }
-
-    .services-img-width {
-        width: 106%;
-    }
+/* =================== For screens with a width of 1024px or more: ==========================*/
+@media screen and (min-width: 1024px) {
+    /* Your styles for this screen width go here */
 }
 
-@media (min-width: 770px) and (max-width: 1200px) {
-    .lottie-dime {
-        width: 795px;
-        height: 471px;
-        margin-left: -147px;
-    }
+/* =================== For screens with a width of 1440px or more: ==========================*/
+@media screen and (min-width: 1440px) {
+    /* Your styles for this screen width go here */
 }
 
-/* Mobile-L view */
-@media only screen and (max-width: 480px) {
-    .lottie-dime {
-        width: 100%;
-        height: 580px;
-        /* margin-top: -300px; */
-        margin-top: -95%;
-    }
-
-    .text-fader .text-content {
-        font-size: 1.5em;
-    }
-
-    .landing-txt {
-        font-size: 1em;
-    }
-
-    .custom-margin-landing {
-        margin-top: 250px;
-        height: 236px;
-    }
-
-    .mob-margin2 {
-        /* margin-top: -87px; */
-        margin-top: -45%;
-    }
-
-    .soc-ico-mt {
-        margin-top: -288px !important;
-        /* margin-right: 7%; */
-    }
-
-    .shadow-title {
-        font-size: 80px;
-    }
-
-    .shadow-title-cont {
-        margin-top: -560px;
-    }
-
-    .portfolio-mt {
-        margin-top: -247px;
-    }
-
-    .services-img-width {
-        width: 100%;
-    }
+/* =================== For screens with a width of 2560px or more: ==========================*/
+@media screen and (min-width: 2560px) {
+    /* Your styles for this screen width go here */
 }
-
-@media only screen and (max-width: 350px) {}
-
-/* media query section end */
 
 /* media query laptop */
 /* If [device width] is less than or equal to 1300px, then do {…} */
 @media only screen and (max-width: 1300px) {
+
     .nav-dy-width {
         width: 87%;
     }

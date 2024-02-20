@@ -1,0 +1,33 @@
+@media only screen and (min-width: 1300px) {
+    .lottie-dime {
+        width: 1143px;
+        height: 796px;
+        margin-left: -147px;
+    }
+
+}
+
+@media (min-width: 750px) and (max-width: 1200px) {
+    .lottie-dime {
+        width: 795px;
+        height: 349px;
+        margin-left: -192px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1200px) {
+    .lottie-dime {
+        width: 795px;
+        height: 471px;
+        margin-left: -147px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .lottie-dime {
+        width: 100%;
+        height: 580px;
+        /* margin-top: -300px; */
+        margin-top: -95%;
+    }
+}
