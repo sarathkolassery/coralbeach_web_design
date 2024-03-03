@@ -27,7 +27,6 @@
     .lottie-dime {
         width: 100%;
         height: 580px;
-        /* margin-top: -300px; */
-        margin-top: -95%;
+        margin-top: 14px;
     }
 }
