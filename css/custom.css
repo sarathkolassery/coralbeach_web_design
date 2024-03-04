@@ -14,9 +14,13 @@
     margin-bottom: 40px;
 }
 
-/* .custom-margin-landing {
+.custom-margin-landing {
     margin-top: 85px;
-} */
+}
+
+.custom-margin-landing2 {
+    margin-top: 30px;
+}
 
 .custom_mt30 {
     margin-top: 30px;
@@ -362,11 +366,15 @@
 
     /* Your styles for this screen width go here */
     .custom-margin-landing {
-        margin-top: 30px;
+        margin-top: -45px;
+    }
+
+    .custom-margin-landing2 {
+        margin-top: 18px;
     }
 
     .text-fader .text-content {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 
     .text-fader {
