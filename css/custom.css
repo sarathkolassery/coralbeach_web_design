@@ -370,11 +370,11 @@
     }
 
     .custom-margin-landing2 {
-        margin-top: 18px;
+        margin-top: 8px;
     }
 
     .text-fader .text-content {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .text-fader {
@@ -383,6 +383,11 @@
 
     .custom_mt524 {
         margin-top: -14px;
+    }
+
+    .soc-ico-mt {
+        margin-top: 89.9px !important;
+        /* margin-right: 7%; */
     }
 }
 
