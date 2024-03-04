@@ -14,9 +14,9 @@
     margin-bottom: 40px;
 }
 
-.custom-margin-landing {
+/* .custom-margin-landing {
     margin-top: 85px;
-}
+} */
 
 .custom_mt30 {
     margin-top: 30px;
@@ -357,9 +357,12 @@
     height: 69vh !important;
 }
 
-/* =================== For screens with a width of 425px or more: ==========================*/
-@media screen and (min-width: 425px) {
+/* =================== For screens with a width of 320px or more: ==========================*/
+@media screen and (min-width: 320px) {
     /* Your styles for this screen width go here */
+    .custom-margin-landing {
+            margin-top: 41px;
+        }
 }
 
 /* =================== For screens with a width of 768px or more: ==========================*/
