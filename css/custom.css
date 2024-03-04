@@ -359,10 +359,23 @@
 
 /* =================== For screens with a width of 320px or more: ==========================*/
 @media screen and (min-width: 320px) {
+
     /* Your styles for this screen width go here */
     .custom-margin-landing {
-            margin-top: 30px;
-        }
+        margin-top: 30px;
+    }
+
+    .text-fader .text-content {
+        font-size: 1.8em;
+    }
+
+    .text-fader {
+        margin: -30% 0 0 10%;
+    }
+
+    .custom_mt524 {
+        margin-top: -14px;
+    }
 }
 
 /* =================== For screens with a width of 768px or more: ==========================*/
@@ -398,10 +411,6 @@
 
     .landing-elmnt {
         margin-top: -88px;
-    }
-
-    .custom_mt524 {
-        margin-top: 588px;
     }
 }
 
