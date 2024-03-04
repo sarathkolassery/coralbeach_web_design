@@ -366,11 +366,11 @@
 
     /* Your styles for this screen width go here */
     .custom-margin-landing {
-        margin-top: -25px;
+        margin-top: 10%;
     }
 
     .custom-margin-landing2 {
-        margin-top: 8px;
+        margin-top: 5%;
     }
 
     .text-fader .text-content {
@@ -382,12 +382,16 @@
     }
 
     .custom_mt524 {
-        margin-top: -14px;
+        margin-top: 1%;
     }
 
     .soc-ico-mt {
-        margin-top: 70px !important;
+        margin-top: 12% !important;
         /* margin-right: 7%; */
+    }
+
+    header.simpl {
+        min-height: 76vh !important;
     }
 }
 
