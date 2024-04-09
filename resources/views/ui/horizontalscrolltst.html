@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space: nowrap;
+            perspective: 1px;
+            transform-style: preserve-3d;
+            height: 100vh;
+        }
+        .section {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 0 0 5px rgba(0,0,0,0.3);
+            background-size: cover;
+            background-position: center;
+            transform-style: inherit;
+        }
+        .parallax::after {
+            content: " ";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform: translateZ(-1px) scale(1.5);
+            background-size: 100%;
+            z-index: -1;
+        }
+        .parallax:nth-child(1)::after {
+            background-image: url('img/one (1).jpg');
+        }
+        .parallax:nth-child(2)::after {
+            background-image: url('img/one (2).jpg');
+        }
+        .parallax:nth-child(3)::after {
+            background-image: url('img/one (3).jpg');
+        }
+        .parallax:nth-child(4)::after {
+            background-image: url('img/one (4).jpg');
+        }
+    </style>
+</head>
+<body>
+    <section class="section parallax">
+        <h1>Heading 1</h1>
+        <p>Paragraph 1</p>
+    </section>
+    <section class="section parallax">
+        <h1>Heading 2</h1>
+        <p>Paragraph 2</p>
+    </section>
+    <section class="section parallax">
+        <h1>Heading 3</h1>
+        <p>Paragraph 3</p>
+    </section>
+    <section class="section parallax">
+        <h1>Heading 4</h1>
+        <p>Paragraph 4</p>
+    </section>
+</body>
+</html>
