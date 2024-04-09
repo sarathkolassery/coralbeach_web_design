@@ -1,1 +1,0 @@
-https://codesandbox.io/s/3d-hover-effect-hqy6h?file=/src/styles.css
