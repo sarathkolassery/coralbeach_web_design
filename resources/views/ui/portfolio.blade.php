@@ -1,152 +1,6 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
-<head>
-    <!-- Metas -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
-    <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
-    <meta name="author" content="" />
-
-    <!-- Title  -->
-    <title>CoralBeach Studios</title>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/cb-icon.png" />
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css?ver=1.1" />
-    <link rel="stylesheet" href="css/textanim.css?ver=1.1" />
-
-    <!-- Core Style Css -->
-    <link rel="stylesheet" href="css/style.css?ver=1.1" />
-
-    <!-- Custom SCSS -->
-
-
-    <link rel="stylesheet" href="css/custom.css?ver=1.1" />
-    <style>
-        .glassmorph1 .brands .item {
-            background: rgba(255, 255, 255, 0.7);
-        }
-    </style>
-</head>
-
-<body>
-
-
-    <!-- ==================== Start Loading ==================== -->
-
-    <div id="preloader">
-    </div>
-
-    <!-- ==================== End Loading ==================== -->
-
-
-
-    <!-- ==================== Start progress-scroll-button ==================== -->
-
-    <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-
-    <!-- ==================== End progress-scroll-button ==================== -->
-
-
-
-    <!-- ==================== Start cursor ==================== -->
-
-    <!-- <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div> -->
-
-    <!-- ==================== End cursor ==================== -->
-
-
-
-    <!-- ==================== Start Navbar ==================== -->
-
-    <nav class="navbar change navbar-expand-lg" style="width: 100%;">
-        <!-- curve start -->
-        <!-- <svg id="header-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="60" viewBox="0 0 100 100"
-          preserveAspectRatio="none">
-          <path fill="%230099ff" fill-opacity="1" d="M0 50 C40 0 60 0 100 50 Z"></path>
-        </svg> -->
-        <!-- curve end -->
-        <div class="container nav-dy-width">
-            <!-- Logo -->
-            <a class="logo" href="#">
-                <img src="img/cb-logo.png" alt="logo" />
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-bar"><i class="fas fa-bars"></i></span>
-            </button>
-
-            <!-- navbar links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: 10px;">
-                <ul class="navbar-nav ml-auto" style="padding-bottom: 15px;">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                        aria-expanded="false">Portfolio</a>
-                      <div class="dropdown-menu glass-drop">
-                        <a class="dropdown-item" href="works.html">Mouse Info</a>
-                        <a class="dropdown-item" href="works2.html">Masonry 3 Columns</a>
-                        <a class="dropdown-item" href="works3.html">Masonry 2 Columns</a>
-                        <a class="dropdown-item" href="works4.html">Pinterest List</a>
-                      </div>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-                <!-- <div class="search">
-              <span class="icon pe-7s-search cursor-pointer"></span>
-              <div class="search-form text-center custom-font">
-                <form>
-                  <input type="text" name="search" placeholder="Search" />
-                </form>
-                <span class="close pe-7s-close cursor-pointer"></span>
-              </div>
-            </div> -->
-            </div>
-        </div>
-        </div>
-    </nav>
-
-    <!-- ==================== End Navbar ==================== -->
-
-
-
-    <!-- ==================== Start header ==================== -->
+@extends('ui-layouts.app')
+@section('content')
+<!-- ==================== Start header ==================== -->
 
     <header class="works-header portfolio-height fixed-slider valign">
         <div class="container">
@@ -208,7 +62,7 @@
                     <div class="col-lg-4 col-md-6 items travel lg-mr">
                         <div class="item-img fadeInUp">
                             <a href="https://www.youtube.com/watch?v=193vqqgHiJ4&t=813s">
-                                <img src="img/portfolio/thumbs/kodai.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/kodai.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -223,7 +77,7 @@
                         <div class="item-img fadeInUp">
                             <a
                                 href="https://www.instagram.com/reel/CrL6uN0IjPS/?utm_source=ig_web_copy_link&igsh=MjM0N2Q2NDBjYg==">
-                                <img src="img/portfolio/thumbs/thira.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/thira.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -236,9 +90,10 @@
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items 3drender">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
-                            <a href="https://www.instagram.com/reel/C3SdYsDIF5I/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
-                                <img src="img/portfolio/thumbs/mclaren.jpg" alt="image">
-                    
+                            <a
+                                href="https://www.instagram.com/reel/C3SdYsDIF5I/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/mclaren.jpg')}}" alt="image">
+
                             </a>
                         </div>
                         <div class="cont">
@@ -252,7 +107,7 @@
                         <div class="item-img">
                             <a
                                 href="https://www.instagram.com/p/CyGMRIbJ9x9/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/ai1.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/ai1.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -266,7 +121,7 @@
                     <div class="col-lg-4 col-md-6 items promotions">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://www.youtube.com/watch?v=9xjmG3kRM9g">
-                                <img src="img/portfolio/thumbs/woodlot.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/woodlot.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -280,7 +135,7 @@
                     <div class="col-lg-4 col-md-6 items automobile">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://www.youtube.com/watch?v=sihPHcXXbEM">
-                                <img src="img/portfolio/thumbs/city.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/city.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -293,9 +148,8 @@
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items photography">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
-                            <a
-                                href="port-inner1.html">
-                                <img src="img/portfolio/thumbs/onam.jpg" alt="image">
+                            <a href="port-inner1.html">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/onam.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -309,7 +163,7 @@
                     <div class="col-lg-4 col-md-6 items automobile">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://www.youtube.com/watch?v=Ta2Fwvsx5IU&t=89s">
-                                <img src="img/portfolio/thumbs/nexon_detour.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/nexon_detour.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -323,7 +177,7 @@
                     <div class="col-lg-4 col-md-6 items travel">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://www.youtube.com/watch?v=RyaSwHNc1Ek&t=31s">
-                                <img src="img/portfolio/thumbs/yercaud.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/yercaud.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -337,7 +191,7 @@
                     <div class="col-lg-4 col-md-6 items travel">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://www.youtube.com/watch?v=AJyVJD-yv6A&t=33s">
-                                <img src="img/portfolio/thumbs/munnar.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/munnar.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -352,7 +206,7 @@
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
                                 href="https://www.instagram.com/reel/CqZot2JJaVq/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/fellah.png" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/fellah.png')}}" alt="image">
 
                             </a>
                         </div>
@@ -366,7 +220,7 @@
                     <div class="col-lg-4 col-md-6 items travel">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://youtu.be/8PRynuBhlWU">
-                                <img src="img/portfolio/thumbs/pakkasuran.png" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/pakkasuran.png')}}" alt="image">
 
                             </a>
                         </div>
@@ -381,7 +235,7 @@
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
                                 href="https://www.instagram.com/reel/CuqlBSqodMi/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/sia.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/sia.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -396,7 +250,7 @@
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
                                 href="https://www.instagram.com/reel/CyxCfuVo69I/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/leo.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/leo.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -411,7 +265,7 @@
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
                                 href="https://www.instagram.com/p/Crun_WeJOWk/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/save.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/save.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -426,7 +280,7 @@
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
                                 href="https://www.instagram.com/reel/CrlduX-PYYl/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/oregano.png" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/oregano.png')}}" alt="image">
 
                             </a>
                         </div>
@@ -440,7 +294,7 @@
                     <div class="col-lg-4 col-md-6 items travel">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://youtu.be/ixYR8BnIoj0">
-                                <img src="img/portfolio/thumbs/chaliyar.png" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/chaliyar.png')}}" alt="image">
 
                             </a>
                         </div>
@@ -454,7 +308,7 @@
                     <div class="col-lg-4 col-md-6 items travel">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://youtu.be/XD4omrEVkMo">
-                                <img src="img/portfolio/thumbs/kodai-teaser.png" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/kodai-teaser.png')}}" alt="image">
 
                             </a>
                         </div>
@@ -468,7 +322,7 @@
                     <div class="col-lg-4 col-md-6 items promotions">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://youtu.be/tBWIxGHke4w">
-                                <img src="img/portfolio/thumbs/villade.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/villade.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -482,7 +336,7 @@
                     <div class="col-lg-4 col-md-6 items travel">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://youtu.be/DNdGDd8xp1g">
-                                <img src="img/portfolio/thumbs/kodanad.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/kodanad.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -496,7 +350,7 @@
                     <div class="col-lg-4 col-md-6 items promotions">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a href="https://youtu.be/r3dszBi1dlc">
-                                <img src="img/portfolio/thumbs/minnus.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/minnus.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -511,7 +365,7 @@
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
                                 href="https://www.instagram.com/reel/CzQKhqsosB3/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/astro.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/astro.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -526,7 +380,7 @@
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
                                 href="https://www.instagram.com/reel/CykF4iKoPTD/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
-                                <img src="img/portfolio/thumbs/ship.jpg" alt="image">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/ship.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -539,9 +393,8 @@
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items travel">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
-                            <a
-                                href="https://youtu.be/954dpkYXMtE">
-                                <img src="img/portfolio/thumbs/nelli.jpg" alt="image">
+                            <a href="https://youtu.be/954dpkYXMtE">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/nelli.jpg')}}" alt="image">
 
                             </a>
                         </div>
@@ -558,87 +411,4 @@
     </section>
 
     <!-- ==================== End works ==================== -->
-
-    <!-- ==================== Start Footer ==================== -->
-
-    <footer class="footer-half section-padding pb-0" style="margin-bottom: -127px;">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="cont">
-                <div class="logo">
-                  <a href="#0">
-                    <img src="img/cb-logo.png" alt="coralbeach logo" />
-                  </a>
-                </div>
-                <div class="con-info custom-font">
-                  <ul>
-                    <li><span>Email : </span> coralbeachstudios@gmail.com</li>
-                    <li>
-                      <span>Our Nexus : </span> Kozhikode, Kerala, India
-                    </li>
-                    <li><span>Phone : </span> +91 8136 8380 49,
-                      +91 7034 511 749</li>
-                  </ul>
-                </div>
-                <div class="social-icon">
-                  <h6 class="custom-font stit simple-btn">Follow Us</h6>
-                  <div class="social">
-                    <a href="https://www.facebook.com/coralbeachstudios" class="icon">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="https://www.instagram.com/coralbeachstudios/" class="icon">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="https://www.youtube.com/@roadbuddies9870" class="icon">
-                      <i class="fab fa-youtube"></i>
-                    </a>
-                    <a href="https://www.youtube.com/@bigmongerpromotions7933" class="icon">
-                      <i class="fab fa-youtube"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-5 offset-lg-2">
-              <div class="subscribe mb-50">
-                <h6 class="custom-font stit simple-btn">QUICK ACCESS</h6>
-                <ul style="padding: 7px;">
-                  <li><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="services.html" class="nav-link">Services</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="copyrights text-center">
-            <p>©
-              <script>document.write(new Date().getFullYear())</script>, coralbeach studios <a href="#0">All rights
-                reserved</a>.
-            </p>
-          </div>
-        </div>
-      </footer>
-
-    <!-- ==================== End Footer ==================== -->
-
-
-
-
-    <!-- jQuery -->
-    <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.min.js"></script>
-
-    <!-- plugins -->
-    <script src="js/plugins.js"></script>
-
-
-    <!-- custom scripts -->
-    <script src="js/scripts.js"></script>
-
-
-</body>
-
-</html>
+@endsection

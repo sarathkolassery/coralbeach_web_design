@@ -7,7 +7,7 @@
     <!-- curve end -->
     <div class="container nav-dy-width">
       <!-- Logo -->
-      <a class="logo" href="#">
+      <a class="logo" href="{{ url('/')}}">
         <img src="{{ asset('ui/img/cb-logo.png')}}" alt="coralbeachstudios logo"/>
       </a>
 
@@ -20,16 +20,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: 10px;">
         <ul class="navbar-nav ml-auto" style="padding-bottom: 15px;">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="{{url('/')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="{{url('/services')}}">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="{{url('/about')}}">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="{{url('/portfolio')}}">Portfolio</a>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
@@ -42,7 +42,7 @@
             </div>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="{{url('/contact')}}">Contact</a>
           </li>
         </ul>
         <!-- <div class="search">

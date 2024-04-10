@@ -34,7 +34,7 @@ In summary, we are your Expert Digital Marketing Company in Calicut, the Reputed
     <title>Branding, Web, Video, SEO Experts - CoralBeach Calicut</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ asset('ui/img/cb-icon.png')}}" />
+    <link rel="shortcut icon" href="{{ asset('ui/img/cb-icon.png') }}" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -77,23 +77,28 @@ In summary, we are your Expert Digital Marketing Company in Calicut, the Reputed
             y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "j2v6ck3qu4");
     </script>
+    @yield('style')
 </head>
 
 <body class="dark2">
-    <svg style="width: 0; height: 0; position: absolute;" aria-hidden="true" focusable="false">
-        <linearGradient id="my-cool-gradient" x1="0%" y1="50%" x2="100%" y2="50%">
-            <stop offset="0%" style="stop-color: #9f0d7f; stop-opacity: 1" />
-            <stop offset="32%" style="stop-color: #9f0d7f; stop-opacity: 1" />
-            <stop offset="68%" style="stop-color: #241468; stop-opacity: 1" />
-            <stop offset="100%" style="stop-color: #241468; stop-opacity: 1" />
-        </linearGradient>
-    </svg>
+
+    @yield('lottie')
 
     <!-- ==================== Start Loading ==================== -->
 
     <div id="preloader"></div>
 
     <!-- ==================== End Loading ==================== -->
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
 
     <!-- ==================== Start cursor ==================== -->
 
@@ -110,101 +115,7 @@ In summary, we are your Expert Digital Marketing Company in Calicut, the Reputed
 
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="slider simpl fixed-slider bg-img valign">
-        <div class="row no-gutters landing-elmnt" style="width: 100%">
-            <div class="col-xl-6 col-sm-6 col-12 custom-margin-landing">
-                <lottie-player src="{{ asset('ui/json/launch.json')}}" background="#FFFFFF" speed="1" class="lottie-dime" loop
-                    autoplay></lottie-player>
-            </div>
-            <div class="col-xl-6 col-sm-6 col-12 custom-margin-landing2">
-                <div class="col-12">
-                    <div class="text-fader">
-                        <div class="text-content">
-                            <span class="line">Welcome to <span class="colour">Coralbeach Studios</span></span>
-                            <span class="line">Crafting <span class="colour">Dreams,</span></span>
-                            <span class="line">Designing <span class="colour">Realities.</span></span>
-                        </div>
-
-                        <div class="text-content">
-                            <span class="line">Video Production</span>
-                            <span class="line"><span class="colour">Branding</span></span>
-                            <span class="line">2D/3D Graphics</span>
-                            <span class="line"><span class="colour">Advertising</span></span>
-                            <span class="line">Photography</span>
-                        </div>
-
-                        <div class="text-content">
-                            <span class="line">Driven by <span class="colour">art</span></span>
-                            <span class="line">mixed with <span class="colour">passion,</span></span>
-                            <span class="line">and a lot of <span class="colour">colors.</span></span>
-                        </div>
-
-                        <div class="text-content">
-                            <span class="line">We create</span>
-                            <span class="line">stunning <span class="colour">contents</span></span>
-                            <span class="line">that elevate</span>
-                            <span class="line">your <span class="colour">business</span></span>
-                            <span class="line">to the next level.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 custom_mt524">
-                    <section class="contact">
-                        <div class="container">
-                            <div class="row no-gutters">
-                                <div class="col-lg-12">
-                                    <div class="cont-info" style="text-align: center;">
-                                        <div class="social soc-ico-mt">
-                                            <a href="https://www.facebook.com/coralbeachstudios" class="icon">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                            <a href="https://www.instagram.com/coralbeachstudios/" class="icon">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                            <a href="https://www.youtube.com/@roadbuddies9870" class="icon">
-                                                <i class="fab fa-youtube"></i>
-                                            </a>
-                                            <a href="https://www.youtube.com/@bigmongerpromotions7933" class="icon">
-                                                <i class="fab fa-youtube"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-        <!-- <div id="container">
-        <span id="text1"></span>
-        <span id="text2"></span>
-      </div> -->
-
-        <!-- <div id="indx4">Photography</div>
-        <div id="indx5">Business promotions</div> -->
-
-        <!-- <svg id="filters">
-        <defs>
-          <filter id="threshold">
-            <feColorMatrix
-              in="SourceGraphic"
-              type="matrix"
-              values="1 0 0 0 0
-									0 1 0 0 0
-									0 0 1 0 0
-									0 0 0 255 -140"
-            />
-          </filter>
-        </defs>
-      </svg> -->
-
-        <!-- <spline-viewer
-        loading-anim
-        url="https://prod.spline.design/LbfU37v2KQaU7uHk/scene.splinecode"
-        style="height: 500px"
-      ></spline-viewer> -->
-    </header>
+    @yield('lottie-header')
 
     <!-- ==================== End Slider ==================== -->
 
@@ -231,86 +142,7 @@ In summary, we are your Expert Digital Marketing Company in Calicut, the Reputed
     <!-- lottie player -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-    <script>
-        // Index page text animation start
-        //setup colour change
-        $(".text-fader .text-content .colour").each(function() {
-            var textSplit = $(this).text().split("");
-            var returnHTML = "";
-            $.each(textSplit, function(intIndex, objValue) {
-                returnHTML += '<span class="letter">' + objValue + "</span>";
-            });
-            $(this).html(returnHTML);
-        });
-
-        $(".text-fader .text-content:first-child").addClass("in");
-        var textFaderDelay = 6000;
-        var textFaderAnimationSpeed = 1000;
-        var colourChangeDelay = 2000;
-
-        function nextText($current) {
-            if ($current.next(".text-fader .text-content").length > 0) {
-                var hasNext = true;
-            } else {
-                var hasNext = false;
-            }
-
-            setTimeout(function() {
-                $current.find(".colour").addClass("go");
-            }, colourChangeDelay);
-
-            setTimeout(function() {
-                $current.removeClass("in").addClass("out");
-                setTimeout(function() {
-                    $current.find(".colour").removeClass("go");
-                    $current.removeClass("out");
-                    if (hasNext) {
-                        $current.next(".text-fader .text-content").addClass("in");
-                    } else {
-                        $(".text-fader .text-content:first-child").addClass("in");
-                    }
-                    nextText($(".text-fader .text-content.in"));
-                }, textFaderAnimationSpeed);
-            }, textFaderDelay);
-        }
-        nextText($(".text-fader .text-content.in"));
-        // Index page text animation end
-    </script>
-    <script>
-        function playPauseVideo() {
-            let videos = document.querySelectorAll("video");
-            videos.forEach((video) => {
-                // We can only control playback without insteraction if video is mute
-                video.muted = true;
-                // Play is a promise so we need to check we have it
-                let playPromise = video.play();
-                if (playPromise !== undefined) {
-                    playPromise.then((_) => {
-                        let observer = new IntersectionObserver(
-                            (entries) => {
-                                entries.forEach((entry) => {
-                                    if (
-                                        entry.intersectionRatio !== 1 &&
-                                        !video.paused
-                                    ) {
-                                        video.pause();
-                                    } else if (video.paused) {
-                                        video.play();
-                                    }
-                                });
-                            }, {
-                                threshold: 0.2
-                            }
-                        );
-                        observer.observe(video);
-                    });
-                }
-            });
-        }
-
-        // And you would kick this off where appropriate with:
-        playPauseVideo();
-    </script>
+    @yield('script')
 </body>
 
 </html>

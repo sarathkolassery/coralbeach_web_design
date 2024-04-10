@@ -1,44 +1,5 @@
-<!DOCTYPE html>
-<html lang="zxx">
-
-<head>
-  <!-- Metas -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-  <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
-  <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
-  <meta name="author" content="" />
-
-  <!-- Title  -->
-  <title>CoralBeach Studios</title>
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/cb-icon.png" />
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
-    rel="stylesheet" />
-
-  <!-- Plugins -->
-  <link rel="stylesheet" href="css/plugins.css?ver=1.1" />
-  <link rel="stylesheet" href="css/textanim.css?ver=1.1" />
-
-  <!-- Core Style Css -->
-  <link rel="stylesheet" href="css/style.css?ver=1.1" />
-
-  <!-- Custom SCSS -->
-
-
-  <link rel="stylesheet" href="css/custom.css?ver=1.1" />
+  @extends('ui-layouts.app')
+  @section('style')
   <style>
     .glassmorph1 .brands .item {
       background: rgba(255, 255, 255, 0.7);
@@ -70,134 +31,8 @@
       padding-inline-start: 1ch;
     }
   </style>
-</head>
-
-<body>
-
-  <!-- ==================== Start Loading ==================== -->
-
-  <div id="preloader">
-  </div>
-
-  <!-- ==================== End Loading ==================== -->
-
-
-
-  <!-- ==================== Start progress-scroll-button ==================== -->
-
-  <div class="progress-wrap cursor-pointer">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-  </div>
-
-  <!-- ==================== End progress-scroll-button ==================== -->
-
-
-
-  <!-- ==================== Start cursor ==================== -->
-
-  <!-- <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div> -->
-
-  <!-- ==================== End cursor ==================== -->
-
-
-
-  <!-- ==================== Start Navbar ==================== -->
-
-  <nav class="navbar change navbar-expand-lg" style="width: 100%;">
-    <!-- curve start -->
-    <!-- <svg id="header-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="60" viewBox="0 0 100 100"
-      preserveAspectRatio="none">
-      <path fill="%230099ff" fill-opacity="1" d="M0 50 C40 0 60 0 100 50 Z"></path>
-    </svg> -->
-    <!-- curve end -->
-    <div class="container nav-dy-width">
-      <!-- Logo -->
-      <a class="logo" href="#">
-        <img src="img/cb-logo.png" alt="logo" />
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="icon-bar"><i class="fas fa-bars"></i></span>
-      </button>
-
-      <!-- navbar links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: 10px;">
-        <ul class="navbar-nav ml-auto" style="padding-bottom: 15px;">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-              aria-expanded="false">Portfolio</a>
-            <div class="dropdown-menu glass-drop">
-              <a class="dropdown-item" href="works.html">Mouse Info</a>
-              <a class="dropdown-item" href="works2.html">Masonry 3 Columns</a>
-              <a class="dropdown-item" href="works3.html">Masonry 2 Columns</a>
-              <a class="dropdown-item" href="works4.html">Pinterest List</a>
-            </div>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-        <!-- <div class="search">
-          <span class="icon pe-7s-search cursor-pointer"></span>
-          <div class="search-form text-center custom-font">
-            <form>
-              <input type="text" name="search" placeholder="Search" />
-            </form>
-            <span class="close pe-7s-close cursor-pointer"></span>
-          </div>
-        </div> -->
-      </div>
-    </div>
-    </div>
-  </nav>
-
-
-  <!-- ==================== End Navbar ==================== -->
-
-
-  <!-- ==================== Start header ==================== -->
-
-  <!-- <header class="works-header fixed-slider hfixd valign">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-9 col-md-11 static">
-                    <div class="capt mt-50">
-                        <div class="parlx">
-                            <h2 class="custom-font"><span>Let's</span>Talk About Future!.</h2>
-                            <p>Feel free to ask us any question or let’s talk about
-                                our future collaboration.</p>
-                        </div>
-
-                        <div class="bactxt custom-font valign">
-                            <span class="full-width">Contact</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
-
-  <!-- ==================== End header ==================== -->
-
-
-  <!-- ==================== Start main-content ==================== -->
-
+  @endsection
+  @section('content')
   <!-- ==================== Services Cards ==================== -->
   <section class="services section-padding bord-top">
     <div class="container">
@@ -209,7 +44,7 @@
         <div class="col-lg-3 col-md-4">
           <div class="htit services-img-width">
             <div class="wow imago animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/cam_with_tripod.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/cam_with_tripod.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -246,7 +81,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/marketing.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/marketing.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -278,7 +113,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/marketing.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/marketing.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -289,7 +124,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/branding.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/branding.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -329,7 +164,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/graphics.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/graphics.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -356,7 +191,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/graphics.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/graphics.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -367,7 +202,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/buz.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/buz.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -406,7 +241,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/websites.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/websites.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -451,7 +286,7 @@
           <div class="htit services-img-width">
             <div class="serviceImg wow imago animated" data-wow-delay=".3s"
               style="visibility: visible; animation-delay: 0.3s;">
-              <img src="img/services/websites.png" style="position: relative;
+              <img src="{{ asset('ui/img/services/websites.png')}}" style="position: relative;
               object-fit: cover;" alt="">
             </div>
           </div>
@@ -594,104 +429,8 @@
   </section>
 
   <!-- ==================== Services Cards End ==================== -->
-
-
-  <!-- ==================== Start Map ==================== -->
-
-  <!-- <div class="map" id="ieatmaps"></div> -->
-
-  <!-- ==================== End Map ==================== -->
-
-
-  <!-- ==================== Start Footer ==================== -->
-
-  <footer class="footer-half section-padding pb-0" style="margin-bottom: -127px;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5">
-          <div class="cont">
-            <div class="logo">
-              <a href="#0">
-                <img src="img/cb-logo.png" alt="coralbeach logo" />
-              </a>
-            </div>
-            <div class="con-info custom-font">
-              <ul>
-                <li><span>Email : </span> coralbeachstudios@gmail.com</li>
-                <li>
-                  <span>Our Nexus : </span> Kozhikode, Kerala, India
-                </li>
-                <li><span>Phone : </span> +91 8136 8380 49,
-                  +91 7034 511 749</li>
-              </ul>
-            </div>
-            <div class="social-icon">
-              <h6 class="custom-font stit simple-btn">Follow Us</h6>
-              <div class="social">
-                <a href="https://www.facebook.com/coralbeachstudios" class="icon">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/coralbeachstudios/" class="icon">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.youtube.com/@roadbuddies9870" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.youtube.com/@bigmongerpromotions7933" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 offset-lg-2">
-          <div class="subscribe mb-50">
-            <h6 class="custom-font stit simple-btn">QUICK ACCESS</h6>
-            <ul style="padding: 7px;">
-              <li><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="services.html" class="nav-link">Services</a></li>
-              <li><a href="about.html" class="nav-link">About</a></li>
-              <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-              <li><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="copyrights text-center">
-        <p>©
-          <script>document.write(new Date().getFullYear())</script>, coralbeach studios <a href="#0">All rights
-            reserved</a>.
-        </p>
-      </div>
-    </div>
-  </footer>
-  <!-- ==================== End Footer ==================== -->
-
-  <!-- ==================== End main-content ==================== -->
-
-
-
-
-
-
-  <!-- jQuery -->
-  <script src="js/jquery-3.0.0.min.js"></script>
-  <script src="js/jquery-migrate-3.0.0.min.js"></script>
-
-  <!-- plugins -->
-  <script src="js/plugins.js"></script>
-
-  <!-- custom scripts -->
-  <script src="js/scripts.js"></script>
-
-  <!-- Map -->
-  <script src="js/map.js"></script>
-
-  <!-- google map api -->
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap">
-    </script>
-
+  @endsection
+  @section('script')
   <script>
     // Create a condition that targets viewports at least 768px wide
     const mediaQuery1 = window.matchMedia('(max-width: 480px)')
@@ -739,9 +478,4 @@
       imageObserver.observe(container);
     });
   </script>
-
-
-
-</body>
-
-</html>
+  @endsection
