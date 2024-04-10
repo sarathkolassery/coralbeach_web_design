@@ -353,7 +353,7 @@
 }
 
 .services-img-width {
-    width: 180%;
+    max-width: 180%;
 }
 
 .custom-img-trans {
