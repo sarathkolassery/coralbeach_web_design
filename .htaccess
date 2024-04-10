@@ -4,8 +4,7 @@
     </IfModule>
 
     RewriteEngine On
-    RewriteRule ^$ public/index.php [L]
-    RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+    RewriteRule ^((?!public/).*)$ public/index.php [L]
 
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
