@@ -23,7 +23,7 @@
             <a class="nav-link" href="{{url('/')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{url('/services')}}">Services</a>
+            <a class="nav-link" href="{{url('/services')}}">Services2</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{url('/about')}}">About</a>
