@@ -41,8 +41,7 @@
             </h3>
             <div class="item mb-40">
               <h5><a href="#0">coralbeachstudios@gmail.com</a></h5>
-              <h5>+91 8136 8380 49</h5>
-              <h5>+91 7034 511 749</h5>
+              <h5>+91 85 90 99 80 80</h5>
             </div>
             <h3 class="custom-font wow" data-splitting>Our nexus
             </h3>
