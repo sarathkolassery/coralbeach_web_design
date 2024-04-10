@@ -15,7 +15,7 @@ Route::get('/services', function () {
 });
 
 Route::get('/portfolio', function () {
-    return view('ui.services');
+    return view('ui.portfolio');
 });
 
 Route::get('/contact', function () {
