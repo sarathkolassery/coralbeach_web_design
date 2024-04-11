@@ -480,7 +480,7 @@
 
         <!-- ==================== Start testimonials ==================== -->
 
-        <section class="testim-box section-padding">
+        {{-- <section class="testim-box section-padding">
             <div class="container">
                 <div class="sec-head custom-font text-center">
                     <h6 class="wow fadeIn" data-wow-delay=".5s">What Peapole Says?</h6>
@@ -551,7 +551,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!-- ==================== End testimonials ==================== -->
     </div>
