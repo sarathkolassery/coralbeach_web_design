@@ -45,6 +45,7 @@
               <li><a href="{{url('/services')}}" class="nav-link">Services</a></li>
               <li><a href="{{url('/about')}}" class="nav-link">About</a></li>
               <li><a href="{{url('/portfolio')}}" class="nav-link">Portfolio</a></li>
+              <li><a href="{{url('/blog')}}" class="nav-link">Our Blog</a></li>
               <li><a href="{{url('/contact')}}" class="nav-link">Contact</a></li>
             </ul>
           </div>
