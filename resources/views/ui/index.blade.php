@@ -10,101 +10,101 @@
     </svg>
 @endsection
 @section('lottie-header')
-<header class="slider simpl fixed-slider bg-img valign">
-  <div class="row no-gutters landing-elmnt" style="width: 100%">
-      <div class="col-xl-6 col-sm-6 col-12 custom-margin-landing">
-          <lottie-player src="{{ asset('ui/json/launch.json')}}" background="#FFFFFF" speed="1" class="lottie-dime" loop
-              autoplay></lottie-player>
-      </div>
-      <div class="col-xl-6 col-sm-6 col-12 custom-margin-landing2">
-          <div class="col-12">
-              <div class="text-fader">
-                  <div class="text-content">
-                      <span class="line">Welcome to <span class="colour">Coralbeach Studios</span></span>
-                      <span class="line">Crafting <span class="colour">Dreams,</span></span>
-                      <span class="line">Designing <span class="colour">Realities.</span></span>
-                  </div>
+    <header class="slider simpl fixed-slider bg-img valign">
+        <div class="row no-gutters landing-elmnt" style="width: 100%">
+            <div class="col-xl-6 col-sm-6 col-12 custom-margin-landing">
+                <lottie-player src="{{ asset('ui/json/launch.json') }}" background="#FFFFFF" speed="1"
+                    class="lottie-dime" loop autoplay></lottie-player>
+            </div>
+            <div class="col-xl-6 col-sm-6 col-12 custom-margin-landing2">
+                <div class="col-12">
+                    <div class="text-fader">
+                        <div class="text-content">
+                            <span class="line">Welcome to <span class="colour">Coralbeach Studios</span></span>
+                            <span class="line">Crafting <span class="colour">Dreams,</span></span>
+                            <span class="line">Designing <span class="colour">Realities.</span></span>
+                        </div>
 
-                  <div class="text-content">
-                      <span class="line">Video Production</span>
-                      <span class="line"><span class="colour">Branding</span></span>
-                      <span class="line">2D/3D Graphics</span>
-                      <span class="line"><span class="colour">Advertising</span></span>
-                      <span class="line">Photography</span>
-                  </div>
+                        <div class="text-content">
+                            <span class="line">Video Production</span>
+                            <span class="line"><span class="colour">Branding</span></span>
+                            <span class="line">2D/3D Graphics</span>
+                            <span class="line"><span class="colour">Advertising</span></span>
+                            <span class="line">Photography</span>
+                        </div>
 
-                  <div class="text-content">
-                      <span class="line">Driven by <span class="colour">art</span></span>
-                      <span class="line">mixed with <span class="colour">passion,</span></span>
-                      <span class="line">and a lot of <span class="colour">colors.</span></span>
-                  </div>
+                        <div class="text-content">
+                            <span class="line">Driven by <span class="colour">art</span></span>
+                            <span class="line">mixed with <span class="colour">passion,</span></span>
+                            <span class="line">and a lot of <span class="colour">colors.</span></span>
+                        </div>
 
-                  <div class="text-content">
-                      <span class="line">We create</span>
-                      <span class="line">stunning <span class="colour">contents</span></span>
-                      <span class="line">that elevate</span>
-                      <span class="line">your <span class="colour">business</span></span>
-                      <span class="line">to the next level.</span>
-                  </div>
-              </div>
-          </div>
-          <div class="col-12 custom_mt524">
-              <section class="contact">
-                  <div class="container">
-                      <div class="row no-gutters">
-                          <div class="col-lg-12">
-                              <div class="cont-info" style="text-align: center;">
-                                  <div class="social soc-ico-mt">
-                                      <a href="https://www.facebook.com/coralbeachstudios" class="icon">
-                                          <i class="fab fa-facebook-f"></i>
-                                      </a>
-                                      <a href="https://www.instagram.com/coralbeachstudios/" class="icon">
-                                          <i class="fab fa-instagram"></i>
-                                      </a>
-                                      <a href="https://www.youtube.com/@roadbuddies9870" class="icon">
-                                          <i class="fab fa-youtube"></i>
-                                      </a>
-                                      <a href="https://www.youtube.com/@bigmongerpromotions7933" class="icon">
-                                          <i class="fab fa-youtube"></i>
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-          </div>
-      </div>
-  </div>
-  <!-- <div id="container">
-  <span id="text1"></span>
-  <span id="text2"></span>
-</div> -->
+                        <div class="text-content">
+                            <span class="line">We create</span>
+                            <span class="line">stunning <span class="colour">contents</span></span>
+                            <span class="line">that elevate</span>
+                            <span class="line">your <span class="colour">business</span></span>
+                            <span class="line">to the next level.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 custom_mt524">
+                    <section class="contact">
+                        <div class="container">
+                            <div class="row no-gutters">
+                                <div class="col-lg-12">
+                                    <div class="cont-info" style="text-align: center;">
+                                        <div class="social soc-ico-mt">
+                                            <a href="https://www.facebook.com/coralbeachstudios" class="icon">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/coralbeachstudios/" class="icon">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                            <a href="https://www.youtube.com/@roadbuddies9870" class="icon">
+                                                <i class="fab fa-youtube"></i>
+                                            </a>
+                                            <a href="https://www.youtube.com/@bigmongerpromotions7933" class="icon">
+                                                <i class="fab fa-youtube"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="container">
+      <span id="text1"></span>
+      <span id="text2"></span>
+    </div> -->
 
-  <!-- <div id="indx4">Photography</div>
-  <div id="indx5">Business promotions</div> -->
+        <!-- <div id="indx4">Photography</div>
+      <div id="indx5">Business promotions</div> -->
 
-  <!-- <svg id="filters">
-  <defs>
-    <filter id="threshold">
-      <feColorMatrix
-        in="SourceGraphic"
-        type="matrix"
-        values="1 0 0 0 0
+        <!-- <svg id="filters">
+      <defs>
+        <filter id="threshold">
+          <feColorMatrix
+            in="SourceGraphic"
+            type="matrix"
+            values="1 0 0 0 0
             0 1 0 0 0
             0 0 1 0 0
             0 0 0 255 -140"
-      />
-    </filter>
-  </defs>
-</svg> -->
+          />
+        </filter>
+      </defs>
+    </svg> -->
 
-  <!-- <spline-viewer
-  loading-anim
-  url="https://prod.spline.design/LbfU37v2KQaU7uHk/scene.splinecode"
-  style="height: 500px"
-></spline-viewer> -->
-</header>
+        <!-- <spline-viewer
+      loading-anim
+      url="https://prod.spline.design/LbfU37v2KQaU7uHk/scene.splinecode"
+      style="height: 500px"
+    ></spline-viewer> -->
+    </header>
 @endsection
 @section('content')
     <div class="main-content">
@@ -124,7 +124,8 @@
                                 <div class="swiper-slide">
                                     <div class="content wow fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago" style="background-position: center;"
-                                            data-background="{{ asset('ui/img/portfolio/curs/stories_retold.jpg') }}"></div>
+                                            data-background="{{ asset('ui/img/portfolio/curs/stories_retold.jpg') }}">
+                                        </div>
                                         <div class="cont">
                                             <h6><a href="#0">art & culture</a></h6>
                                             <h4>
@@ -209,8 +210,9 @@
                                         <div class="img">
                                             <img src="{{ asset('ui/img/clients/brands/oregano.png') }}"
                                                 alt="coralbeachstudios clients" />
-                                            <a href="#0" class="link" style="margin-bottom: 18px; font-size: 10px;"
-                                                data-splitting>Vazhakkad, Malappuram</a>
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Vazhakkad,
+                                                Malappuram</a>
                                             <!-- <p class="link">Belly Gym, Kozhikode</p> -->
                                         </div>
                                     </div>
@@ -220,8 +222,9 @@
                                         <div class="img">
                                             <img src="{{ asset('ui/img/clients/brands/indo.png') }}"
                                                 alt="coralbeachstudios clients" />
-                                            <a href="#0" class="link" style="margin-bottom: 18px; font-size: 10px;"
-                                                data-splitting>Pushpa Junction, Calicut</a>
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Pushpa
+                                                Junction, Calicut</a>
                                         </div>
                                     </div>
                                 </div>
@@ -315,7 +318,7 @@
                                 effectively.
                             </p>
                             <div class="cus-flex-base">
-                                <button class="cus-serv-btn" onclick="window.location.href = 'services.html';">
+                                <button class="cus-serv-btn" onclick="window.location.href = '{{url('/services')}}';">
                                     Learn More
                                     <div class="arrow-wrapper">
                                         <div class="arrow"></div>
@@ -334,7 +337,7 @@
                                 success today!
                             </p>
                             <div class="cus-flex-base">
-                                <button class="cus-serv-btn" onclick="window.location.href = 'services.html';">
+                                <button class="cus-serv-btn" onclick="window.location.href = '{{url('/services')}}';">
                                     Learn More
                                     <div class="arrow-wrapper">
                                         <div class="arrow"></div>
@@ -352,7 +355,7 @@
                                 success now!
                             </p>
                             <div class="cus-flex-base">
-                                <button class="cus-serv-btn" onclick="window.location.href = 'services.html';">
+                                <button class="cus-serv-btn" onclick="window.location.href = '{{url('/services')}}';">
                                     Learn More
                                     <div class="arrow-wrapper">
                                         <div class="arrow"></div>
@@ -372,7 +375,7 @@
                                 today!
                             </p>
                             <div class="cus-flex-base">
-                                <button class="cus-serv-btn" onclick="window.location.href = 'services.html';">
+                                <button class="cus-serv-btn" onclick="window.location.href = '{{url('/services')}}';">
                                     Learn More
                                     <div class="arrow-wrapper">
                                         <div class="arrow"></div>
@@ -390,7 +393,7 @@
                                 of expertise and research.
                             </p>
                             <div class="cus-flex-base">
-                                <button class="cus-serv-btn" onclick="window.location.href = 'services.html';">
+                                <button class="cus-serv-btn" onclick="window.location.href = '{{url('/services')}}';">
                                     Learn More
                                     <div class="arrow-wrapper">
                                         <div class="arrow"></div>
@@ -407,7 +410,7 @@
                                 Digital presence amplified! Expert website development for your success. Connect with us now
                             </p>
                             <div class="cus-flex-base">
-                                <button class="cus-serv-btn" onclick="window.location.href = 'services.html';">
+                                <button class="cus-serv-btn" onclick="window.location.href = '{{url('/services')}}';">
                                     Learn More
                                     <div class="arrow-wrapper">
                                         <div class="arrow"></div>
@@ -429,18 +432,18 @@
                 <div class="row">
                     <div class="col-sm-5 offset-lg-1 md-mb50">
                         <!-- <div class="img">
-                <img src="img/intro/b1.jpg" alt="" />
+                    <img src="img/intro/b1.jpg" alt="" />
 
-                <div class="vid-icon">
-                  <a class="vid" href="https://vimeo.com/127203262">
-                    <div class="vid-butn">
-                      <span class="icon">
-                        <i class="fas fa-play"></i>
-                      </span>
+                    <div class="vid-icon">
+                      <a class="vid" href="https://vimeo.com/127203262">
+                        <div class="vid-butn">
+                          <span class="icon">
+                            <i class="fas fa-play"></i>
+                          </span>
+                        </div>
+                      </a>
                     </div>
-                  </a>
-                </div>
-              </div> -->
+                  </div> -->
                         <video width="100%" height="1000px" loop>
                             <source src="{{ asset('ui/video/branding/cb_vid.mp4') }}" type="video/mp4">
                         </video>
