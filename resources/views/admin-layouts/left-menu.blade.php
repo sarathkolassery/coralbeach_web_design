@@ -3,20 +3,20 @@
     <!-- Brand Logo Light -->
     <a href="index.html" class="logo logo-light">
         <span class="logo-lg">
-            <img src="assets/images/logo.png" alt="logo">
+            <img src="{{ asset('admin/assets/images/logo.png') }}" alt="logo">
         </span>
         <span class="logo-sm">
-            <img src="assets/images/logo-sm.png" alt="small logo">
+            <img src="{{ asset('admin/assets/images/logo-sm.png') }}" alt="small logo">
         </span>
     </a>
 
     <!-- Brand Logo Dark -->
     <a href="index.html" class="logo logo-dark">
         <span class="logo-lg">
-            <img src="assets/images/logo-dark.png" alt="dark logo">
+            <img src="{{ asset('admin/assets/images/logo-dark.png') }}" alt="dark logo">
         </span>
         <span class="logo-sm">
-            <img src="assets/images/logo-sm.png" alt="small logo">
+            <img src="{{ asset('admin/assets/images/logo-sm.png') }}" alt="small logo">
         </span>
     </a>
 
@@ -383,70 +383,23 @@
             </li>
 
             <li class="side-nav-item">
-                <a data-bs-toggle="collapse" href="#sidebarMultiLevel" aria-expanded="false"
-                    aria-controls="sidebarMultiLevel" class="side-nav-link">
-                    <i class="ri-share-line"></i>
-                    <span> Multi Level </span>
+                <a data-bs-toggle="collapse" href="#settings" aria-expanded="false"
+                    aria-controls="settings" class="side-nav-link">
+                    <i class="ri-settings-3-line"></i>
+                    <span> Settings </span>
                     <span class="menu-arrow"></span>
                 </a>
-                <div class="collapse" id="sidebarMultiLevel">
+                <div class="collapse" id="settings">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="javascript: void(0);">Level 1.1</a>
+                            <a href="">Roles</a>
                         </li>
-                        <li class="side-nav-item">
-                            <a data-bs-toggle="collapse" href="#sidebarSecondLevel" aria-expanded="false"
-                                aria-controls="sidebarSecondLevel">
-                                <span> Level 1.2 </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <div class="collapse" id="sidebarSecondLevel">
-                                <ul class="side-nav-third-level">
-                                    <li>
-                                        <a href="javascript: void(0);">Item 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript: void(0);">Item 2</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="side-nav-item">
-                            <a data-bs-toggle="collapse" href="#sidebarThirdLevel" aria-expanded="false"
-                                aria-controls="sidebarThirdLevel">
-                                <span> Level 1.3 </span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <div class="collapse" id="sidebarThirdLevel">
-                                <ul class="side-nav-third-level">
-                                    <li>
-                                        <a href="javascript: void(0);">Item 1</a>
-                                    </li>
-                                    <li class="side-nav-item">
-                                        <a data-bs-toggle="collapse" href="#sidebarFourthLevel" aria-expanded="false"
-                                            aria-controls="sidebarFourthLevel">
-                                            <span> Item 2 </span>
-                                            <span class="menu-arrow"></span>
-                                        </a>
-                                        <div class="collapse" id="sidebarFourthLevel">
-                                            <ul class="side-nav-forth-level">
-                                                <li>
-                                                    <a href="javascript: void(0);">Item 2.1</a>
-                                                </li>
-                                                <li>
-                                                    <a href="javascript: void(0);">Item 2.2</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                        <li>
+                            <a href="">Permissions</a>
                         </li>
                     </ul>
                 </div>
             </li>
-
-
         </ul>
         <!--- End Sidemenu -->
 
