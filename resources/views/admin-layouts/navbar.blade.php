@@ -344,7 +344,7 @@
                         <img src="{{ asset('admin/assets/images/users/avatar-1.jpg') }}" alt="user-image" width="32" class="rounded-circle">
                     </span>
                     <span class="d-lg-block d-none">
-                        <h5 class="my-0 fw-normal">Thomson <i
+                        <h5 class="my-0 fw-normal">{{ Auth::user()->name }} <i
                                 class="ri-arrow-down-s-line d-none d-sm-inline-block align-middle"></i></h5>
                     </span>
                 </a>
@@ -381,7 +381,15 @@
                     <!-- item-->
                     <a href="auth-logout-2.html" class="dropdown-item">
                         <i class="ri-logout-box-line fs-18 align-middle me-1"></i>
-                        <span>Logout</span>
+                        <span><form method="POST" action="{{ route('logout') }}">
+                            @csrf
+
+                            <x-dropdown-link :href="route('logout')"
+                                    onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                {{ __('Log Out') }}
+                            </x-dropdown-link>
+                        </form></span>
                     </a>
                 </div>
             </li>

@@ -105,7 +105,7 @@
                                                         Please enter a valid name
                                                     </div>
                                                 </div>
-                                                <button class="btn btn-primary" type="submit">Submit form</button>
+                                                <button class="btn btn-primary" type="submit">Submit</button>
                                             </form>
 
                                         </div> <!-- end card-body-->

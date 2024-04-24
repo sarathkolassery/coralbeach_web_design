@@ -1,0 +1,1 @@
+<img src="{{ asset('admin/assets/images/cb-logo-blk.png')}}" alt="coralbeach-studios-logo" style="width: 250px;">

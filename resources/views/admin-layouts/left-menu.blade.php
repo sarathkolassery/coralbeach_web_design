@@ -392,10 +392,10 @@
                 <div class="collapse" id="settings">
                     <ul class="side-nav-second-level">
                         <li>
-                            <a href="">Roles</a>
+                            <a href="{{ url('/roles')}}">Roles</a>
                         </li>
                         <li>
-                            <a href="">Permissions</a>
+                            <a href="{{ url('/permissions')}}">Permissions</a>
                         </li>
                     </ul>
                 </div>

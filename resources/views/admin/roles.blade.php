@@ -56,48 +56,25 @@
 
 
                                 <tbody>
-                                    <tr>
-                                        <td>Tiger Nixon</td>
-                                        <td>System Architect</td>
-                                        <td>sdgdsfd</td>
-                                        <td><a href="#" class="btn btn-success btn-sm me-1 tooltips"
-                                                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Edit"> <i
-                                                    class="ri-pencil-fill"></i> </a>
-                                            <a href="#" class="btn btn-danger btn-sm me-1 tooltips"
-                                                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"> <i
-                                                    class="ri-delete-bin-2-fill"></i> </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Garrett Winters</td>
-                                        <td>Accountant</td>
-                                        <td>Tokyo</td>
-                                        <td>63</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ashton Cox</td>
-                                        <td>Junior Technical Author</td>
-                                        <td>San Francisco</td>
-                                        <td>66</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cedric Kelly</td>
-                                        <td>Senior Javascript Developer</td>
-                                        <td>Edinburgh</td>
-                                        <td>22</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Airi Satou</td>
-                                        <td>Accountant</td>
-                                        <td>Tokyo</td>
-                                        <td>33</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Brielle Williamson</td>
-                                        <td>Integration Specialist</td>
-                                        <td>New York</td>
-                                        <td>61</td>
-                                    </tr>
+                                    @foreach ($roles as $role)
+                                        <tr>
+                                            <td>{{ $role->name }}</td>
+                                            <td>{{ $role->created_at }}</td>
+                                            <td>{{ $role->updated_at }}</td>
+                                            <td><a href="{{ url('/roles/permissions/view/' . $role->id . '') }}"
+                                                class="btn btn-success btn-sm me-1 tooltips" data-bs-toggle="tooltip"
+                                                data-bs-placement="top" data-bs-title="Edit/Add permissions">Permissions</a>
+                                                <a href="{{ url('/roles/edit/' . $role->id . '') }}"
+                                                    class="btn btn-success btn-sm me-1 tooltips" data-bs-toggle="tooltip"
+                                                    data-bs-placement="top" data-bs-title="Edit"> <i
+                                                        class="ri-pencil-fill"></i> </a>
+                                                <a href="{{ url('/roles/delete/' . $role->id . '') }}"
+                                                    class="btn btn-danger btn-sm me-1 tooltips" data-bs-toggle="tooltip"
+                                                    data-bs-placement="top" data-bs-title="Delete"> <i
+                                                        class="ri-delete-bin-2-fill"></i> </a>
+                                            </td>
+                                        </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
 
@@ -120,10 +97,12 @@
                                 <div class="col-lg-12">
                                     <div class="card">
                                         <div class="card-body">
-                                            <form class="needs-validation" novalidate>
+                                            <form action={{ route('submitroles') }} class="needs-validation" novalidate
+                                                method="POST">
+                                                @csrf
                                                 <div class="mb-3">
                                                     <label class="form-label" for="nameInput">Role name</label>
-                                                    <input type="text" class="form-control" id="nameInput"
+                                                    <input type="text" name="name" class="form-control" id="nameInput"
                                                         placeholder="Enter a role name" required>
                                                     <div class="valid-feedback">
                                                         Looks good!
@@ -132,7 +111,7 @@
                                                         Please enter a valid name
                                                     </div>
                                                 </div>
-                                                <button class="btn btn-primary" type="submit">Submit form</button>
+                                                <button class="btn btn-primary" type="submit">Submit</button>
                                             </form>
 
                                         </div> <!-- end card-body-->
@@ -154,7 +133,8 @@
     <script src="{{ asset('admin/assets/vendor/datatables.net/js/jquery.dataTables.min.js') }}"></script>
     <script src="{{ asset('admin/assets/vendor/datatables.net-bs5/js/dataTables.bootstrap5.min.js') }}"></script>
     <script src="{{ asset('admin/assets/vendor/datatables.net-responsive/js/dataTables.responsive.min.js') }}"></script>
-    <script src="{{ asset('admin/assets/vendor/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendor/datatables.net-responsive-bs5/js/responsive.bootstrap5.min.js') }}">
+    </script>
     <script src="{{ asset('admin/assets/vendor/datatables.net-fixedcolumns-bs5/js/fixedColumns.bootstrap5.min.js') }}">
     </script>
     <script src="{{ asset('admin/assets/vendor/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js') }}"></script>

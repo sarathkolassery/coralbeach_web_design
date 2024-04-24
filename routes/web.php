@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PermissionController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use Spatie\Permission\Models\Role;
 
 Route::get('/', function () {
     return view('ui.index');
@@ -27,26 +31,39 @@ Route::get('/contact', function () {
     return view('ui.contact');
 });
 
-// ======================== ADMIN ========================
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/cbadmin', function () {
-    return view('admin.index');
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/permissions', [PermissionController::class, 'index'])->name('permissions');
+
+    Route::get('/roles', function () {
+        return view('admin.roles');
+    });
+
+    Route::get('/roles', [RoleController::class, 'index'])->name('viewroles');
+
+    Route::get('/roles/submit', [RoleController::class, 'index'])->name('submitroles');
+
+    Route::get('/roles/edit/{id}', [RoleController::class, 'edit'])->name('editroles');
+
+    Route::post('/role/update/{id}', [RoleController::class, 'update'])->name('updateroles');
+
+    Route::get('/roles/delete/{id}', [RoleController::class, 'destroy'])->name('deleteroles');
+
+    Route::post('/permissions/submit', [PermissionController::class, 'store'])->name('submitpermissions');
+
+    Route::get('/permissions/edit/{id}', [PermissionController::class, 'edit'])->name('editpermissions');
+
+    Route::post('/permissions/update/{id}', [PermissionController::class, 'update'])->name('updatepermissions');
+
+    Route::get('/permissions/delete/{id}', [PermissionController::class, 'destroy'])->name('deletepermissions');
+
+    Route::get('/users', [UserController::class, 'index'])->name('viewusers');
 });
 
-// Route::get('/permissions', function () {
-//     return view('admin.permissions');
-// });
-
-Route::get('/permissions',[PermissionController::class,'index'])->name('permissions');
-
-Route::get('/roles', function () {
-    return view('admin.roles');
-});
-
-Route::post('/permissions/submit',[PermissionController::class,'store'])->name('submitpermissions');
-
-Route::get('/permissions/edit/{id}',[PermissionController::class,'edit'])->name('editpermissions');
-
-Route::post('/permissions/update/{id}',[PermissionController::class,'update'])->name('updatepermissions');
-
-Route::get('/permissions/delete/{id}',[PermissionController::class,'destroy'])->name('deletepermissions');
+require __DIR__ . '/auth.php';
