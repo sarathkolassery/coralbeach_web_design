@@ -45,7 +45,6 @@
                         <form action="{{ url('/roles/givepermissions/' . $role->id . '') }}" class="form-control"
                             method="POST">
                             @csrf
-                            @method('PUT')
                             <div class="card-body">
                                 <div class="row">
                                     @foreach ($permissions as $permission)

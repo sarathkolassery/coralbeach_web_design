@@ -39,7 +39,7 @@
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ url('/role/update/'.$role->id) }}" class="needs-validation" novalidate
+                            <form action="{{ url('/roles/update/'.$role->id) }}" class="needs-validation" novalidate
                                 method="POST">
                                 @csrf
                                 <div class="mb-3">

@@ -47,13 +47,17 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/roles', [RoleController::class, 'index'])->name('viewroles');
 
-    Route::get('/roles/submit', [RoleController::class, 'index'])->name('submitroles');
+    Route::post('/roles/submit', [RoleController::class, 'store'])->name('submitroles');
 
     Route::get('/roles/edit/{id}', [RoleController::class, 'edit'])->name('editroles');
 
-    Route::post('/role/update/{id}', [RoleController::class, 'update'])->name('updateroles');
+    Route::post('/roles/update/{id}', [RoleController::class, 'update'])->name('updateroles');
 
-    Route::get('/roles/delete/{id}', [RoleController::class, 'destroy'])->name('deleteroles');
+    Route::get('/roles/delete/{id}', [RoleController::class, 'destroy'])->name('deleteroles')->middleware('permission:delete_role');
+
+    Route::get('/roles/permissions/view/{id}', [RoleController::class, 'addpermissionntorolesview'])->name('viewrolepermissions');
+    
+    Route::post('/roles/givepermissions/{id}', [RoleController::class, 'givepermissiontorole'])->name('permissiontoroles');
 
     Route::post('/permissions/submit', [PermissionController::class, 'store'])->name('submitpermissions');
 
