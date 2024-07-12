@@ -138,11 +138,11 @@
                                 <div class="swiper-slide">
                                     <div class="content wow fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago" style="background-position: center;"
-                                            data-background="{{ asset('ui/img/portfolio/curs/nexon_detour.jpg') }}"></div>
+                                            data-background="{{ asset('ui/img/portfolio/thumbs/gym1.jpg') }}"></div>
                                         <div class="cont">
-                                            <h6><a href="#0">automotive</a></h6>
+                                            <h6><a href="#0">fitness</a></h6>
                                             <h4>
-                                                <a href="https://youtu.be/Ta2Fwvsx5IU">Nexon Detour</a>
+                                                <a href="https://www.instagram.com/reel/C7RD-DdvhNR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">4in fitness gym colab</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -150,11 +150,11 @@
                                 <div class="swiper-slide">
                                     <div class="content wow fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago" style="background-position: center;"
-                                            data-background="{{ asset('ui/img/portfolio/curs/honda_city.jpg') }}"></div>
+                                            data-background="{{ asset('ui/img/portfolio/thumbs/nsa1.jpg') }}"></div>
                                         <div class="cont">
-                                            <h6><a href="#0">automotive</a></h6>
+                                            <h6><a href="#0">architecture</a></h6>
                                             <h4>
-                                                <a href="https://youtu.be/sihPHcXXbEM">Honda City Cinematic</a>
+                                                <a href="https://www.instagram.com/reel/C9CkOoyyX0z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D">NijasSameer Associates</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -162,11 +162,23 @@
                                 <div class="swiper-slide">
                                     <div class="content wow fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago" style="background-position: center;"
-                                            data-background="{{ asset('ui/img/portfolio/curs/kodai.jpg') }}"></div>
+                                            data-background="{{ asset('ui/img/portfolio/thumbs/kodai2.jpg') }}"></div>
                                         <div class="cont">
                                             <h6><a href="#0">travel</a></h6>
                                             <h4>
                                                 <a href="https://youtu.be/193vqqgHiJ4">Kodaikanal</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="item-img bg-img wow imago" style="background-position: center;"
+                                            data-background="{{ asset('ui/img/portfolio/thumbs/alan.jpg') }}"></div>
+                                        <div class="cont">
+                                            <h6><a href="#0">film</a></h6>
+                                            <h4>
+                                                <a href="https://youtu.be/193vqqgHiJ4">Alan -Micro film</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -206,18 +218,6 @@
                         <div>
                             <div class="row bord glassmorph1">
                                 <div class="col-md-3 col-6 brands">
-                                    <div class="item wow fadeIn" data-wow-delay=".3s">
-                                        <div class="img">
-                                            <img src="{{ asset('ui/img/clients/brands/oregano.png') }}"
-                                                alt="coralbeachstudios clients" />
-                                            <a href="#0" class="link"
-                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Vazhakkad,
-                                                Malappuram</a>
-                                            <!-- <p class="link">Belly Gym, Kozhikode</p> -->
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".6s">
                                         <div class="img">
                                             <img src="{{ asset('ui/img/clients/brands/indo.png') }}"
@@ -242,15 +242,35 @@
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="{{ asset('ui/img/clients/brands/villade.png') }}"
+                                            <img src="{{ asset('ui/img/clients/brands/scandicroot.png') }}"
                                                 alt="coralbeachstudios clients" />
                                             <a href="#0" class="link"
-                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Mahe</a>
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Sweden</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/malabarworld.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Calicut</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row bord glassmorph1">
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/ayur.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Vadakara</a>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".4s">
                                         <div class="img">
@@ -258,6 +278,68 @@
                                                 alt="coralbeachstudios clients" />
                                             <a href="#0" class="link"
                                                 style="margin-bottom: 18px; font-size: 10px;" data-splitting>Calicut</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/oregano.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Vazhakkad,
+                                                Malappuram</a>
+                                            <!-- <p class="link">Belly Gym, Kozhikode</p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/caolin.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Malappuram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/nsa.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Calicut</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/claro.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Omassery</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/puregel.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Calicut</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/villade.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Mahe</a>
                                         </div>
                                     </div>
                                 </div>
@@ -272,22 +354,22 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands">
-                                    <div class="item wow fadeIn" data-wow-delay=".5s">
-                                        <div class="img">
-                                            <img src="{{ asset('ui/img/clients/brands/portugal.png') }}"
-                                                alt="coralbeachstudios clients" />
-                                            <a href="#0" class="link"
-                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Ernakulam</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
                                             <img src="{{ asset('ui/img/clients/brands/mallus.png') }}"
                                                 alt="coralbeachstudios clients" />
                                             <a href="#0" class="link"
                                                 style="margin-bottom: 18px; font-size: 10px;" data-splitting>Dubai</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".5s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/portugal.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Ernakulam</a>
                                         </div>
                                     </div>
                                 </div>

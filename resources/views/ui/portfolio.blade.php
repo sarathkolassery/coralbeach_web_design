@@ -48,6 +48,8 @@
                         <span data-filter='.photography'>Photography</span>
                         <span data-filter='.ads'>Ads</span>
                         <span data-filter='.culture'>Culture</span>
+                        <span data-filter='.fitness'>Fitness</span>
+                        <span data-filter='.architecture'>Architecture</span>
                         <span data-filter='.automobile'>Automobile</span>
                         <span data-filter='.cinematic'>Cinematic</span>
                         <span data-filter='.3drender'>3D Render</span>
@@ -59,16 +61,30 @@
                 <div class="gallery full-width">
 
                     <!-- gallery item -->
-                    <div class="col-lg-4 col-md-6 items travel lg-mr">
+                    <div class="col-lg-4 col-md-6 items fitness">
                         <div class="item-img fadeInUp">
-                            <a href="https://www.youtube.com/watch?v=193vqqgHiJ4&t=813s">
-                                <img src="{{ asset('ui/img/portfolio/thumbs/kodai.jpg')}}" alt="image">
+                            <a href="https://www.instagram.com/reel/C7302F_vb5V/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/gym2.jpg')}}" alt="image">
 
                             </a>
                         </div>
                         <div class="cont">
-                            <h6>Kodaikanal Travel Video</h6>
-                            <span><a href="#0">Videos</a>/<a href="#0">Travel</a></span>
+                            <h6>Fitness supplement colaboration</h6>
+                            <span><a href="#0">Videos</a>/<a href="#0">Fitness</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items fitness">
+                        <div class="item-img fadeInUp">
+                            <a href="https://www.instagram.com/reel/C7RD-DdvhNR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/gym1.jpg')}}" alt="image">
+
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Gym colaboration</h6>
+                            <span><a href="#0">Videos</a>/<a href="#0">Fitness</a></span>
                         </div>
                     </div>
 
@@ -88,6 +104,34 @@
                     </div>
 
                     <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items travel">
+                        <div class="item-img fadeInUp">
+                            <a href="https://www.youtube.com/watch?v=193vqqgHiJ4&t=813s">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/kodai.jpg')}}" alt="image">
+
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Kodaikanal Travel Video</h6>
+                            <span><a href="#0">Videos</a>/<a href="#0">Travel</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items automobile">
+                        <div class="item-img fadeInUp">
+                            <a href="https://www.instagram.com/reel/C81_4SeozEj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/dominar1.jpg')}}" alt="image">
+
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Dominar cinematic reel</h6>
+                            <span><a href="#0">Videos</a>/<a href="#0">Automobile</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items 3drender">
                         <div class="item-img wow fadeInUp" data-wow-delay=".4s">
                             <a
@@ -98,12 +142,27 @@
                         </div>
                         <div class="cont">
                             <h6>McLaren - 3D Render</h6>
-                            <span><a href="#0">Video</a>/<a href="#0">3D Render</a></span>
+                            <span><a href="#0">Videos</a>/<a href="#0">3D Render</a></span>
                         </div>
                     </div>
 
                     <!-- gallery item -->
-                    <div class="col-lg-4 col-md-6 items ai lg-mr">
+                    <div class="col-lg-4 col-md-6 items architecture">
+                        <div class="item-img">
+                            <a
+                                href="https://www.instagram.com/reel/C9CkOoyyX0z/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/nsa1.jpg')}}" alt="image">
+
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>NijasSameer Associates</h6>
+                            <span><a href="#0">Videos</a>/<a href="#0">Architecture</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items ai">
                         <div class="item-img">
                             <a
                                 href="https://www.instagram.com/p/CyGMRIbJ9x9/?utm_source=ig_web_copy_link&igsh=ZTcxMWMzOWQ1OA==">
