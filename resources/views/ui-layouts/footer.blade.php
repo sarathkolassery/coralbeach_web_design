@@ -10,9 +10,10 @@
             </div>
             <div class="con-info custom-font">
               <ul>
-                <li><span>Email : </span> coralbeachstudios@gmail.com</li>
+                <li><span>Email : </span> hello@coralbeachstudios.com</li>
                 <li>
-                  <span>Our Nexus : </span> Kozhikode, Kerala, India
+                  <span>Our Nexus : </span> 2nd Floor, Tower 1,<br>
+                  Hilite business park, Calicut - 673014
                 </li>
                 <li><span>Phone : </span> +91 8136 8380 49,
                   +91 7034 511 749</li>
