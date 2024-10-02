@@ -47,6 +47,7 @@
                         <span data-filter='.promotions'>Promotions</span>
                         <span data-filter='.photography'>Photography</span>
                         <span data-filter='.ads'>Ads</span>
+                        <span data-filter='.motionposters'>Motion posters</span>
                         <span data-filter='.culture'>Culture</span>
                         <span data-filter='.fitness'>Fitness</span>
                         <span data-filter='.architecture'>Architecture</span>
@@ -59,6 +60,20 @@
 
                 <!-- gallery -->
                 <div class="gallery full-width">
+
+                    <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items motionposters">
+                        <div class="item-img fadeInUp">
+                            <a href="https://www.instagram.com/reel/DAA9w36SCoA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/tumbledry.jpg')}}" alt="image">
+
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Tumbledry laundry - Motion poster</h6>
+                            <span><a href="#0">Motion Poster</a>/<a href="#0">Reel</a></span>
+                        </div>
+                    </div>
 
                     <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items fitness">

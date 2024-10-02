@@ -46,9 +46,9 @@
             <h3 class="custom-font wow" data-splitting>Our nexus
             </h3>
             <div class="item">
-              <h6>Door No. 62/1446-a 5th Floor,
-                <br>Alhind Grande, Kannur Road
-                <br>Calicut - 673001
+              <h6>2nd Floor, Tower 1
+                <br>Hilite Business Park
+                <br>Calicut - 673014
               </h6>
             </div>
             <div class="social mt-50">
