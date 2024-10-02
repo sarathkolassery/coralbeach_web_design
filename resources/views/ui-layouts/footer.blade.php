@@ -15,8 +15,7 @@
                   <span>Our Nexus : </span> 2nd Floor, Tower 1,<br>
                   Hilite business park, Calicut - 673014
                 </li>
-                <li><span>Phone : </span> +91 8136 8380 49,
-                  +91 7034 511 749</li>
+                <li><span>Phone : </span> +91 85 90 99 80 80</li>
               </ul>
             </div>
             <div class="social-icon">
