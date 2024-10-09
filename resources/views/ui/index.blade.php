@@ -124,13 +124,12 @@
                                 <div class="swiper-slide">
                                     <div class="content wow fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago" style="background-position: center;"
-                                            data-background="{{ asset('ui/img/portfolio/curs/stories_retold.jpg') }}">
+                                            data-background="{{ asset('ui/img/portfolio/thumbs/tumbledry.jpg') }}">
                                         </div>
                                         <div class="cont">
-                                            <h6><a href="#0">art & culture</a></h6>
+                                            <h6><a href="#0">ADS</a></h6>
                                             <h4>
-                                                <a
-                                                    href="https://www.instagram.com/reel/CrL2drfO6k6/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">Thirra</a>
+                                                <a href="https://www.instagram.com/reel/DAA9w36SCoA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Tumbledry Ad</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -138,11 +137,23 @@
                                 <div class="swiper-slide">
                                     <div class="content wow fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago" style="background-position: center;"
-                                            data-background="{{ asset('ui/img/portfolio/thumbs/gym1.jpg') }}"></div>
+                                            data-background="{{ asset('ui/img/portfolio/thumbs/royalenfield.jpg') }}"></div>
+                                        <div class="cont">
+                                            <h6><a href="#0">Business promotion</a></h6>
+                                            <h4>
+                                                <a href="https://www.instagram.com/reel/C_dNjJMI19C/">Royal Enfield, EV Motors promotional video</a>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="content wow fadeInUp" data-wow-delay=".3s">
+                                        <div class="item-img bg-img wow imago" style="background-position: center;"
+                                            data-background="{{ asset('ui/img/portfolio/thumbs/gym2.jpg') }}"></div>
                                         <div class="cont">
                                             <h6><a href="#0">fitness</a></h6>
                                             <h4>
-                                                <a href="https://www.instagram.com/reel/C7RD-DdvhNR/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">4in fitness gym colab</a>
+                                                <a href="https://www.instagram.com/reel/C7302F_vb5V/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">Gainz4ever fitness ad</a>
                                             </h4>
                                         </div>
                                     </div>
@@ -162,11 +173,13 @@
                                 <div class="swiper-slide">
                                     <div class="content wow fadeInUp" data-wow-delay=".3s">
                                         <div class="item-img bg-img wow imago" style="background-position: center;"
-                                            data-background="{{ asset('ui/img/portfolio/thumbs/kodai2.jpg') }}"></div>
+                                            data-background="{{ asset('ui/img/portfolio/curs/stories_retold.jpg') }}">
+                                        </div>
                                         <div class="cont">
-                                            <h6><a href="#0">travel</a></h6>
+                                            <h6><a href="#0">art & culture</a></h6>
                                             <h4>
-                                                <a href="https://youtu.be/193vqqgHiJ4">Kodaikanal</a>
+                                                <a
+                                                    href="https://www.instagram.com/reel/CrL2drfO6k6/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">Thirra</a>
                                             </h4>
                                         </div>
                                     </div>

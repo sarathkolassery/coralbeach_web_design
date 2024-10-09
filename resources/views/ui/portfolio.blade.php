@@ -62,6 +62,20 @@
                 <div class="gallery full-width">
 
                     <!-- gallery item -->
+                    <div class="col-lg-4 col-md-6 items promotions">
+                        <div class="item-img fadeInUp">
+                            <a href="https://www.instagram.com/reel/C_dNjJMI19C/">
+                                <img src="{{ asset('ui/img/portfolio/thumbs/royalenfield.jpg')}}" alt="image">
+
+                            </a>
+                        </div>
+                        <div class="cont">
+                            <h6>Royal Enfield, EV Motors - Promotional video</h6>
+                            <span><a href="#0">Videos</a>/<a href="#0">Promotions</a></span>
+                        </div>
+                    </div>
+
+                    <!-- gallery item -->
                     <div class="col-lg-4 col-md-6 items motionposters">
                         <div class="item-img fadeInUp">
                             <a href="https://www.instagram.com/reel/DAA9w36SCoA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">

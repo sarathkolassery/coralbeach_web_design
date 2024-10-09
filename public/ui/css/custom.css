@@ -102,6 +102,27 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.glassmorph_services {
+    background: rgba(255, 255, 255, 0.7) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glassmorph_services ul li {
+    text-align: left;
+}
+
+.services_bg_img {
+    background-image: url("../../ui/img/services/ser_bg.png"); 
+    background-attachment: fixed; 
+    padding: 20px;  
+    border-radius: 15px; 
+    background-position: center;
+}
+
 .soc-ico-mt {
     margin-top: 140px !important;
     /* margin-right: 7%; */
