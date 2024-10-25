@@ -285,6 +285,16 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands">
+                                    <div class="item wow fadeIn" data-wow-delay=".3s">
+                                        <div class="img">
+                                            <img src="{{ asset('ui/img/clients/brands/evmotors.png') }}"
+                                                alt="coralbeachstudios clients" />
+                                            <a href="#0" class="link"
+                                                style="margin-bottom: 18px; font-size: 10px;" data-splitting>Calicut</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".4s">
                                         <div class="img">
                                             <img src="{{ asset('ui/img/clients/brands/hoowa.png') }}"
