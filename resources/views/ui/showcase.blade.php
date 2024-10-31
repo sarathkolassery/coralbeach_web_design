@@ -3,8 +3,10 @@
     <style>
         .centered-bottom {
             position: absolute;
-            bottom: 5%;
+            bottom: 12%;
             width: 100%;
+            background-color: black;
+            border-radius: 15px;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -12,23 +14,29 @@
         .centered-bottom h5 {
             color: white;
         }
+
         .centered-bottom a {
             color: white;
+            text-align: center;
+        }
+
+        .slider .parallax-slider .swiper-slide .bg-img {
+            background-size: contain;
         }
     </style>
 @endsection
 @section('content')
     <!-- ==================== Start Slider ==================== -->
 
-    <header class="slider showcase-full">
+    <header class="slider showcase-full" style="background-color: black;">
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="ui/img/portfolio/full/elegancesalons.jpg">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/elegancesalons.png">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-10 offset-lg-1 centered-bottom">
-                                    <h5>Elegance Salons, Uk</h5>
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Elegance Salons, Uk</h5>
                                     <a href="https://www.elegancesalons.co.uk/">Visit site</a>
                                 </div>
                             </div>
@@ -37,11 +45,12 @@
 
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="ui/img/portfolio/full/ledgerwell.jpg">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/ledgerwell.png">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-10 offset-lg-1">
-
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Ledgerwell, Dubai</h5>
+                                    <a href="https://ledgerwelluae.com/">Visit site</a>
                                 </div>
                             </div>
                         </div>
