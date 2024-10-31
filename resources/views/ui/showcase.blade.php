@@ -32,6 +32,11 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/title.png">
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="bg-img valign" data-background="ui/img/portfolio/full/elegancesalons.png">
                         <div class="container">
                             <div class="row">
@@ -57,52 +62,96 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/portfolio/full/3.jpg" data-overlay-dark="4">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/skssf.png">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-10 offset-lg-1">
-                                    <div class="caption">
-                                        <h1>
-                                            <a href="project-details2.html">
-                                                <div class="stroke" data-swiper-parallax="-2000">Modern</div> <span
-                                                    data-swiper-parallax="-5000">Couch</span>
-                                            </a>
-                                        </h1>
-                                    </div>
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Kuwait Kerala Islamic Council, Kuwait</h5>
+                                    <a href="https://kuwaitskssf.com/">Visit site</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/portfolio/full/5.jpg" data-overlay-dark="4">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/finarch.png">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-10 offset-lg-1">
-                                    <div class="caption">
-                                        <h1><a href="project-details2.html">
-                                                <div class="stroke" data-swiper-parallax="-2000">Black</div> <span
-                                                    data-swiper-parallax="-5000">Panther</span>
-                                            </a></h1>
-                                    </div>
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Finarch, UAE</h5>
+                                    <a href="https://www.finarchuae.com/">Visit site</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="img/portfolio/full/6.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/mahis.png">
                         <div class="container">
                             <div class="row">
-                                <div class="col-lg-10 offset-lg-1">
-                                    <div class="caption">
-                                        <h1>
-                                            <a href="project-details2.html">
-                                                <div class="stroke" data-swiper-parallax="-2000">Secret</div> <span
-                                                    data-swiper-parallax="-5000">Office</span>
-                                            </a>
-                                        </h1>
-                                    </div>
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Mahis Marine, Mumbai</h5>
+                                    <a href="https://www.mahismarine.com/">Visit site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/malabarworld.png">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Malabar World Tours and Travels, Calicut, Kerala</h5>
+                                    <a href="https://malabarworld.com/">Visit site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/cinetrax.png">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Cinetrax, Calicut, Kerala</h5>
+                                    <a href="https://cinetrax.in/">Visit site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/yathrawayanad.png">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Yathra Holidays, Wayanad, Kerala</h5>
+                                    <a href="https://www.yathrawayanad.com/">Visit site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/brilliance.png">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: Brilliance Academy, Calicut, Kerala</h5>
+                                    <a href="https://www.brillianceacademy.in/">Visit site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="ui/img/portfolio/full/amseva.png">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 centered-bottom">
+                                    <h5>Client: AM SEVA KENDRA, Calicut, Kerala</h5>
+                                    <a href="https://amsevakendra.com/">Visit site</a>
                                 </div>
                             </div>
                         </div>
