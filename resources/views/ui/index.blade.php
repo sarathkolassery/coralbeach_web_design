@@ -20,7 +20,8 @@
                 <div class="col-12">
                     <div class="text-fader">
                         <div class="text-content">
-                            <span class="line">Welcome to <span class="colour">Coralbeach Studios</span></span>
+                            <span class="line">Welcome to</span>
+                            <span class="line"><span class="colour">Coralbeach Studios</span></span>
                             <span class="line">Crafting <span class="colour">Dreams,</span></span>
                             <span class="line">Designing <span class="colour">Realities.</span></span>
                         </div>
