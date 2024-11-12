@@ -23,6 +23,10 @@ Route::get('/portfolio', function () {
     return view('ui.portfolio');
 });
 
+Route::get('/showcase', function () {
+    return view('ui.showcase');
+});
+
 Route::get('/blog', function () {
     return view('ui.blog');
 });
