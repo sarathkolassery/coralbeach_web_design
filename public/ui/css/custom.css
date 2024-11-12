@@ -553,7 +553,8 @@
     }
 
     .landing-elmnt {
-        margin-top: -88px;
+        /* margin-top: -88px; */
+        padding-top: 220px;
     }
 }
 
