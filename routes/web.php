@@ -35,6 +35,10 @@ Route::get('/contact', function () {
     return view('ui.contact');
 });
 
+Route::get('/cart', function () {
+    return view('ui.cart');
+});
+
 Route::get('/dashboard', function () {
     return view('admin.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
