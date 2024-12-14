@@ -164,5 +164,8 @@
   .cont-info-custom1 {
     height: 35vh !important;
   }
+  .text-fader .text-content {
+    font-size: 1.5em;
+  }
 }
 
