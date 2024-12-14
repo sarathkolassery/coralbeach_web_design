@@ -3,7 +3,7 @@
   position: relative;
 }
 .text-fader .text-content {
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: bold;
   color: #090909;
 }
@@ -138,6 +138,31 @@
   to {
     opacity: 0;
     transform: translateY(-25%);
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .cont-info-custom1 {
+
+  }
+
+}
+
+@media (min-width: 750px) and (max-width: 1200px) {
+  .cont-info-custom1 {
+
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1200px) {
+  .cont-info-custom1 {
+    
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cont-info-custom1 {
+    height: 35vh !important;
   }
 }
 
