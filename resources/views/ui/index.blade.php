@@ -10,9 +10,9 @@
     </svg>
 @endsection
 @section('lottie-header')
-    <header>
+    <header style="margin-top: 5em;">
         <div class="row" style="width: 100%;">
-            <div class="col-xl-6 col-sm-6 col-12" style="z-index: 999;">
+            <div class="col-xl-6 col-sm-6 col-12">
                 <lottie-player src="{{ asset('ui/json/launch.json') }}" background="" speed="1"
                     class="lottie-dime" loop autoplay></lottie-player>
             </div>
