@@ -387,7 +387,7 @@
 /* =================== For screens with a width of 768px or more: ==========================*/
 @media screen and (min-width: 768px) {
     .custom-img-trans {
-        height: 82vh !important;
+        height: 40vh !important;
         margin: 15vh 0 0 !important;
     }
 }
