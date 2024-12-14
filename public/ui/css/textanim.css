@@ -1,9 +1,9 @@
 .text-fader {
-  margin: 25% 0 0 10%;
-  position: absolute;
+  margin: 0% 0 0 10%;
+  position: relative;
 }
 .text-fader .text-content {
-  font-size: 3em;
+  font-size: 2.2em;
   font-weight: bold;
   color: #090909;
 }
