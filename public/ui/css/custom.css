@@ -3,7 +3,7 @@
     flex-direction: column; /* Align children vertically */
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    height: 40vh; /* Adjust height as needed */
+    height: 50vh; /* Adjust height as needed */
 }
 
 .custom-padding-t50 {

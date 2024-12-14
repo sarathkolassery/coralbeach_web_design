@@ -22,12 +22,12 @@
           }
 
           .text li {
-              list-style-type: '◼';
+              list-style-type: '⫸';
               padding-inline-start: 1ch;
           }
 
           .text li ul li {
-              list-style-type: '◼';
+              list-style-type: '⫸';
               padding-inline-start: 1ch;
           }
       </style>
