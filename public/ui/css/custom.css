@@ -3,7 +3,7 @@
     flex-direction: column; /* Align children vertically */
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
-    height: 50vh; /* Adjust height as needed */
+    height: 80vh; /* Adjust height as needed */
 }
 
 .custom-padding-t50 {
@@ -390,36 +390,23 @@
         height: 82vh !important;
         margin: 15vh 0 0 !important;
     }
-
-    .main-content {
-        margin-top: 70% !important;
-    }
 }
 
 /* =================== For screens with a width of 1024px or more: ==========================*/
 @media screen and (min-width: 1024px) {
 
-    .main-content {
-        margin-top: 50% !important;
-    }
 }
 
 /* =================== For screens with a width of 1440px or more: ==========================*/
 @media screen and (min-width: 1440px) {
 
 
-    .main-content {
-        margin-top: 50% !important;
-    }
 }
 
 /* =================== For screens with a width of 2560px or more: ==========================*/
 @media screen and (min-width: 2560px) {
 
 
-    .main-content {
-        margin-top: 50% !important;
-    }
 }
 
 /* media query laptop */

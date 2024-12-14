@@ -10,10 +10,10 @@
     </svg>
 @endsection
 @section('lottie-header')
-    <header class="slider simpl fixed-slider bg-img valign">
-        <div class="row" style="width: 100%; margin-top: 6em;">
-            <div class="col-xl-6 col-sm-6 col-12">
-                <lottie-player src="{{ asset('ui/json/launch.json') }}" background="#FFFFFF" speed="1"
+    <header>
+        <div class="row" style="width: 100%;">
+            <div class="col-xl-6 col-sm-6 col-12" style="z-index: 999;">
+                <lottie-player src="{{ asset('ui/json/launch.json') }}" background="" speed="1"
                     class="lottie-dime" loop autoplay></lottie-player>
             </div>
             <div class="col-xl-6 col-sm-6 col-12">
@@ -54,7 +54,7 @@
                     </div>
                     <div class="col-12">
                         <section class="contact">
-                            <div class="container">
+                            <div class="container" style="margin-bottom: 15px;">
                                 <div class="row no-gutters">
                                     <div class="col-lg-12">
                                         <div class="cont-info" style="text-align: center;">
@@ -81,34 +81,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div id="container">
-              <span id="text1"></span>
-              <span id="text2"></span>
-            </div> -->
-
-        <!-- <div id="indx4">Photography</div>
-              <div id="indx5">Business promotions</div> -->
-
-        <!-- <svg id="filters">
-              <defs>
-                <filter id="threshold">
-                  <feColorMatrix
-                    in="SourceGraphic"
-                    type="matrix"
-                    values="1 0 0 0 0
-            0 1 0 0 0
-            0 0 1 0 0
-            0 0 0 255 -140"
-                  />
-                </filter>
-              </defs>
-            </svg> -->
-
-        <!-- <spline-viewer
-              loading-anim
-              url="https://prod.spline.design/LbfU37v2KQaU7uHk/scene.splinecode"
-              style="height: 500px"
-            ></spline-viewer> -->
     </header>
 @endsection
 @section('content')
